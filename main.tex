@@ -1,0 +1,36 @@
+\documentclass [12pt,a4] {report}
+\date{}
+\usepackage{graphicx}
+\usepackage [english] {babel}
+\usepackage{blindtext}
+\usepackage {times}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1in,bottom=1in,left=1.5in,right=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{titletoc}
+\usepackage[nottoc,numbib]{tocbibind} 
+%\usepackage[style=alphabetic]{biblatex}
+%\addbibresource{ref.bib}
+\begin{document}
+\include{Contents/coverpage}
+\include{Contents/abstract}
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\listoffigures
+\thispagestyle{empty}
+\include{Contents/Chapter1}
+\include{Contents/Chapter2}
+\include{Contents/Chapter3}
+\include{Contents/Chapter4}
+\include{Contents/Chapter5}
+\include{Contents/Chapter6}
+\include{Contents/Chapter7}
+\bibliographystyle{plain}
+\bibliography{ref}
+\end{document}
