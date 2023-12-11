@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.17)  10 DEC 2023 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.17)  11 DEC 2023 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -346,62 +346,99 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 20.
+\XKV@depth=\count313
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen175
+\tc@lly=\dimen176
+\tc@urx=\dimen177
+\tc@ury=\dimen178
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen179
+\adjbox@Height=\dimen180
+\adjbox@Depth=\dimen181
+\adjbox@Totalheight=\dimen182
+\adjbox@pwidth=\dimen183
+\adjbox@pheight=\dimen184
+\adjbox@pdepth=\dimen185
+\adjbox@ptotalheight=\dimen186
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count314
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count315
+\@vwid@loff=\dimen187
+\@vwid@roff=\dimen188
+))
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 21.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count313
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box58
 )
 
 LaTeX Warning: Unused global option(s):
     [a4].
 
-(main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Chapter7.aux))
+(main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Chapter7.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count314
-\scratchdimen=\dimen175
-\scratchbox=\box57
-\nofMPsegments=\count315
-\nofMParguments=\count316
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count317
-\MPscratchDim=\dimen176
-\MPnumerator=\count318
-\makeMPintoPDFobject=\count319
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count317
+\scratchdimen=\dimen189
+\scratchbox=\box59
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen190
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks31
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -443,7 +480,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 21.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -451,7 +488,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout2 = `Contents/coverpage.aux'.
 
  (Contents/coverpage.tex
-<./img/Khwopalogo.jpg, id=79, 101.178pt x 101.178pt>
+<./img/Khwopalogo.jpg, id=82, 101.178pt x 101.178pt>
 File: ./img/Khwopalogo.jpg Graphic file (type jpg)
 <use ./img/Khwopalogo.jpg>
 Package pdftex.def Info: ./img/Khwopalogo.jpg  used on input line 9.
@@ -464,7 +501,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (60.13498pt too wide) in paragraph at lines 18--25
+Overfull \hbox (108.26997pt too wide) in paragraph at lines 18--25
  [][] 
  []
 
@@ -486,7 +523,7 @@ Overfull \hbox (60.13498pt too wide) in paragraph at lines 18--25
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \listoffigures
+l.27 \listoffigures
                     [1
 
 
@@ -497,6 +534,18 @@ l.25 \listoffigures
 
  [2
 
+] (main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [3
+
+]
+\openout2 = `Contents/Abbreviation.aux'.
+
+ (Contents/Abbreviation.tex) [4
+
+
 ]
 \openout2 = `Contents/Chapter1.aux'.
 
@@ -506,27 +555,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -534,31 +568,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \section
-             {Objectives} [1
+l.14 \clearpage
+                [1
 
+
+
+
+] [2
 
 ]
-Overfull \hbox (1.9379pt too wide) in paragraph at lines 23--24
+Overfull \hbox (1.9379pt too wide) in paragraph at lines 22--23
 \OT1/ptm/m/n/12 an-a-lyze the in-tri-cate pat-terns and struc-tures as-so-ci-ated with image-in-image steganog-
  []
 
-[2]) [3]
+) [3
+
+]
 \openout2 = `Contents/Chapter2.aux'.
 
  (Contents/Chapter2.tex
 Chapter 2.
+
+Overfull \hbox (24.71854pt too wide) in paragraph at lines 11--22
+[][] 
+ []
+
 ) [4
 
 
 
 
-]
+] [5]
 \openout2 = `Contents/Chapter3.aux'.
 
  (Contents/Chapter3.tex
 Chapter 3.
-) [5
+) [6
 
 
 
@@ -568,52 +613,64 @@ Chapter 3.
 
  (Contents/Chapter4.tex
 Chapter 4.
-<./img/block_d.jpg, id=142, 1161.33875pt x 756.8275pt>
+<./img/agile.png, id=170, 652.4375pt x 382.42876pt>
+File: ./img/agile.png Graphic file (type png)
+<use ./img/agile.png>
+Package pdftex.def Info: ./img/agile.png  used on input line 6.
+(pdftex.def)             Requested size: 227.62204pt x 133.42024pt.
+<./img/block_d.jpg, id=171, 1161.33875pt x 756.8275pt>
 File: ./img/block_d.jpg Graphic file (type jpg)
 <use ./img/block_d.jpg>
-Package pdftex.def Info: ./img/block_d.jpg  used on input line 14.
+Package pdftex.def Info: ./img/block_d.jpg  used on input line 20.
 (pdftex.def)             Requested size: 476.98465pt x 310.84406pt.
 
-Overfull \hbox (43.36464pt too wide) in paragraph at lines 14--15
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 20--21
 [] 
  []
 
+[7
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
+
+
+ <./img/agile.png>] [8 <./img/block_d.jpg>]
+<./img/System architecture.jpg, id=187, 617.9085pt x 443.256pt>
+File: ./img/System architecture.jpg Graphic file (type jpg)
+<use ./img/System architecture.jpg>
+Package pdftex.def Info: ./img/System architecture.jpg  used on input line 26.
+(pdftex.def)             Requested size: 512.1496pt x 367.40865pt.
+
+Overfull \hbox (78.52959pt too wide) in paragraph at lines 26--27
+[][] 
  []
 
-[6
+[9
 
+ <./img/System architecture.jpg>]) [10
 
-
-
-]) [7 <./img/block_d.jpg>]
+]
 \openout2 = `Contents/Chapter5.aux'.
 
  (Contents/Chapter5.tex
 Chapter 5.
-<./img/gantt.jpg, id=156, 566.115pt x 316.18124pt>
-File: ./img/gantt.jpg Graphic file (type jpg)
-<use ./img/gantt.jpg>
-Package pdftex.def Info: ./img/gantt.jpg  used on input line 4.
-(pdftex.def)             Requested size: 512.1496pt x 286.06573pt.
-
-Overfull \hbox (78.52959pt too wide) in paragraph at lines 4--5
-[][] 
- []
-
-[8
+<./img/gantt_chart.png, id=196, 1697.34125pt x 1029.8475pt>
+File: ./img/gantt_chart.png Graphic file (type png)
+<use ./img/gantt_chart.png>
+Package pdftex.def Info: ./img/gantt_chart.png  used on input line 4.
+(pdftex.def)             Requested size: 426.79134pt x 258.95409pt.
+[11
 
 
 
 
- <./img/gantt.jpg>]) [9]
+ <./img/gantt_chart.png>]) [12
+
+]
 \openout2 = `Contents/Chapter6.aux'.
 
  (Contents/Chapter6.tex
 Chapter 6.
-) [10
+) [13
 
 
 
@@ -621,35 +678,33 @@ Chapter 6.
 ]
 \openout2 = `Contents/Chapter7.aux'.
 
- (Contents/Chapter7.tex
+
+No file Contents/Chapter7.tex.
+(main.bbl
 Chapter 7.
-) [11
+) [14
 
 
 
 
-] (main.bbl
-Chapter 8.
-) [12
 
 
-
-] (main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Chapter7.aux))
+] (main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Chapter7.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D493CDCF63D934C745CE20D54F16BE71;2633.
+(rerunfilecheck)             Checksum: 6E935B02E335DAE9409F3C7FBCBDD59E;2836.
  ) 
 Here is how much of TeX's memory you used:
- 13728 strings out of 476331
- 232160 string characters out of 5788237
- 1858660 words of memory out of 5000000
- 33842 multiletter control sequences out of 15000+600000
+ 14878 strings out of 476331
+ 253529 string characters out of 5788237
+ 1862660 words of memory out of 5000000
+ 34941 multiletter control sequences out of 15000+600000
  533802 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,77p,1613b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,77p,1560b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 1021727 bytes).
+Output written on main.pdf (20 pages, 1217113 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

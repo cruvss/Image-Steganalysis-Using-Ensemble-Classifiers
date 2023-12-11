@@ -15,6 +15,7 @@
 \usepackage{enumitem}
 \usepackage{titletoc}
 \usepackage[nottoc,numbib]{tocbibind} 
+\usepackage[export]{adjustbox}
 %\usepackage[style=alphabetic]{biblatex}
 %\addbibresource{ref.bib}
 \begin{document}
@@ -22,8 +23,12 @@
 \include{Contents/abstract}
 \renewcommand{\contentsname}{Table of Contents}
 \tableofcontents
-\listoffigures
 \thispagestyle{empty}
+\listoffigures
+\listoftables
+\clearpage
+\addcontentsline{toc}{chapter}{List of Abbreviation}
+\include{Contents/Abbreviation}
 \include{Contents/Chapter1}
 \include{Contents/Chapter2}
 \include{Contents/Chapter3}

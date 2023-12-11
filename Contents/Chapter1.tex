@@ -1,23 +1,22 @@
 \chapter{Introduction}
 \pagenumbering{arabic}
 \section{Background}
-Steganography is like hiding a secret message, like a picture or music. It's a way of keeping your message private by making it blend in, so others don't even realize there's a secret there. It has many types such as : image steganography, audio steganography, video steganography.\\
+Steganography is like hiding a secret message, like a picture or music. It's a way of keeping your message private by making it blend in, so others don't even realize there's a secret there. Steganalysis, the detection of hidden information within digital media, is crucial for maintaining the integrity and security of digital communication. Uncovering hidden information is vital for maintaining the security of digital communication channels, preventing covert communication that may pose risks.\vspace{0.5cm}\\
 \textbf{Image Steganography}\\
 Image Steganography is the process of hiding information which can be text, image or video inside a cover image. The secret information is hidden in a way that is not visible to the human eyes.
 Different techniques of image steganography:
-\begin{itemize}
-\item \textbf{Transform Domain Steganography}\\
-These techniques involve transforming the image data into a different domain (e.g., frequency domain using Discrete Cosine Transform or wavelet domain using Discrete Wavelet Transform) and then hiding information in the transformed coefficients.\\
-\item \textbf{Compressed Domain Steganography}\\
-Hides information within the compressed data of an image file to reduce file size and detection difficulty.\\
-\item \textbf{Least Significant Bit (LSB) Technique}\\
-It involves replacing the least significant bits of the pixel values with the secret message bits.\\
-\item \textbf {Pixel Value Differencing (PVD) Technique}\\
-Identifies and modifies pixels with small value differences to encode information in both grayscale and color images.\\
+\begin{itemize}[noitemsep]
+\item \textbf{nsF5}
+\item \textbf{UERD(uniform embedding revisited distortion)}
+\item \textbf{J-Uniward}\\
 \end{itemize}
+Steganography is an ever-evolving science of concealing information, continuously evolving to counteract detection methodologies. In response to this continuous evolution, the deployment of an automatically adaptive detection system becomes necessary. Embedding machine learning within steganalysis emerges as an optimal strategy to effectively counter the continuous evolution of covert communication methods.\\
+\clearpage
 \section{Problem Statement}
-The development of image steganography poses a serious cybersecurity threat. Since images play a major role in digital communication, the use of advanced steganographic techniques to hide malicious data inside another carrier information pose an intricate threat to the security of a system. Creative approaches are required since, secretly implanted malicious programs are difficult for traditional steganalysis to accurately identify. The complexity of compression and encryption methods adds an additional level of difficulty in detection. Existing steganalysis which were created for traditional steganography, are not flexible enough to detect the ever evolving algorithms for steganography. Thus, in order to protect the integrity of digital communication. This proposal seeks to propose an ever evolving steganalysis process created with the help of ML to detect and tackle the subtle changes caused by concealing of malicious data within unsuspecting carrier files.\\
+The continuous evolution of steganographic techniques poses a critical challenge to digital security. With the increasing sophistication of methods used to embed information covertly, traditional steganalysis approaches are challenged by the need for improved accuracy and adaptability. Since two-thirds of the internet is composed of images and images play a major role in digital communication, the use of advanced steganographic techniques to hide malicious data inside another carrier information poses an intricate threat to the security of a system. Creative approaches are required since secretly implanted malicious programs are difficult for traditional steganalysis to accurately identify. The complexity of compression and encryption methods adds an additional level of difficulty in detection. Existing steganalysis, which was created for traditional steganography, is not flexible enough to detect the ever-evolving algorithms for steganography. This proposal aims to fill these gaps by developing advanced machine learning-based steganalysis models that not only enhance accuracy and sensitivity but also exhibit adaptability to emerging steganographic trends. Thus, to protect the integrity of digital communication. This proposal seeks to propose an ever-evolving steganalysis process created with the help of ML to detect and tackle the subtle changes caused by the concealing of malicious data within unsuspecting carrier files.
+\clearpage
 \section{Objectives}
+The main objectives of this project is to:
 \begin{itemize}
 \item \textbf{Adaptability to Emerging Techniques:} Develop steganalysis models that can adapt to emerging steganographic methods by continuously learning and updating their knowledge base.
 \item \textbf{Algorithmic Innovation:} Explore novel algorithms and methodologies tailored to analyze the intricate patterns and structures associated with image-in-image steganography.

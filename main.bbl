@@ -1,13 +1,25 @@
 \begin{thebibliography}{1}
 
-\bibitem{Hello}
-Jeppe Nicolaisen.
-\newblock Citation analysis.
-\newblock {\em Annual review of information science and technology},
-  41(1):609--641, 2007.
+\bibitem{2}
+George Berg, Ian Davidson, Ming{-}Yuan Duan, and Goutam Paul.
+\newblock Searching for hidden messages: Automatic detection of steganography.
+\newblock In John Riedl and Randall W.~Hill Jr., editors, {\em Proceedings of
+  the Fifteenth Conference on Innovative Applications of Artificial
+  Intelligence, August 12-14, 2003, Acapulco, Mexico}, pages 51--56. {AAAI},
+  2003.
 
-\bibitem{vedder2002mine}
-EDDIE VEDDER.
-\newblock I am mine, 2002.
+\bibitem{3}
+Mark~T Hogan, Neil~J Hurley, Gu{\'e}nol{\'e}~CM Silvestre, F{\'e}lix Balado,
+  and Kevin~M Whelan.
+\newblock Ml detection of steganography.
+\newblock In {\em Security, Steganography, and Watermarking of Multimedia
+  Contents VII}, volume 5681, pages 16--27. SPIE, 2005.
+
+\bibitem{1}
+Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
+  Janicki.
+\newblock Detection of image steganography using deep learning and ensemble
+  classifiers.
+\newblock {\em Electronics}, 11(10):1565, 2022.
 
 \end{thebibliography}

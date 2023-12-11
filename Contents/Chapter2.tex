@@ -1,1 +1,23 @@
 \chapter{Literature Review}
+Some work has been done in image steganalysis. Various steganalysis tools use different approaches like feature extraction, shallow ML, and deep learning methods to detect stego images. This literature review seeks to portray the history, methodologies, implementation and applications of steganalysis.\\
+Multiple research has been done to achieve excellent results in steganalysis. Krzysztof Szczypiorski et al.\cite{1} used deep learning and ensemble classifiers to detect image steganography using different methods like DCTR and shallow machine learning classifiers. They found that performance depended heavily on the steganographic method used and on the density of the embedded hidden data. Detection of the content hidden with the nsF5 algorithm at the density 0.4 bpnzac was almost perfect while detection of data hidden using J-Uniward at 0.1 bpnzac was hardly possible. It was also found that steganalysis done using shallow ML was better in comparison to deep learning.\\
+George Berg et al.\cite{2} proposed an ML approach to steganalysis. This paper shows the feasibility of using a machine learning and data mining (ML/DM) approach to automatically build a steganography attack. This paper used three common data mining and learning techniques: decision trees, error back-propagation, artificial neural networks and the naïve Bayes classifier, to identify messages hidden in compression- (JPEG) and contentbased (GIF) images.\\
+Similarly, MT Hogan et al.\cite{3} evaluated the statistical limits by using probability density functions(pdfs). ML tests based on DC-DM are presented in this paper. \\
+To effectively uncover hidden information in images, we need a steganalysis tool with sharp pattern recognition skills. Sometimes, when we compare images that have been manipulated with certain tools to their original versions, we can spot a few noticeable visual irregularities – like odd pixels or changes in dimensions due to cropping or padding. If an image doesn't fit specific size criteria, it might get cropped or padded, and you'll see black spaces. Interestingly, most manipulated images don't give away obvious clues when compared to their originals. The simplest clue is a size increase between the manipulated and original images. Other signatures show up in how the colors are arranged in the image, such as a significant change in the number of colors or a gradual increase or decrease. Grayscale images follow a different pattern, increasing incrementally. Another strong indicator is an unusual number of black shades in a grayscale image.
+Ensemble classifiers are designed to overcome the limitations of individual classifiers by combining their outputs to achieve better performance. Steganalysis using ensemble classifiers is a powerful approach that utilizes the strength of multiple classifiers to help improve the detection of hidden information in images. It provides diverse steganographic techniques while also enhancing the overall accuracy. Ensemble classifiers are designed to overcome the limitations of individual classifiers by combining their outputs, thereby achieving better performance.\\
+The relevant papers that we studied to grab knowledge about this project are given in the review matrix below:
+ \begin{table}[h!]
+    \hbadness=99999 
+    \begin{tabular}{|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{4cm}|}
+    \hline
+    S.N& Title& Authors& Year & Keywords\\
+    \hline
+    1&Dection of Image Steganography using deep learning and ensemble classifiers&Mikołaj Płachta, Marek Krzemie`n, Krzysztof Szczypiorski, and Artur Janicki.&2022& Ensemble Classifier,BOSS Database,steganalysis, Deep Learning\\
+    \hline
+    2&Searching For Hidden Messages: Automatic detection of steganography&George Berg, Ian Davidson, Ming-Yuan Duan and Goutam Paul&2003& Desicion Tree,error back-propagation artificial neural networks and the naïve Bayes classifier\\
+    \hline
+    3&ML detection of steganography&Mark T. Hogan, Neil J. Hurley, Gu`enol`e C.M. Silvestre, F`elix Balado and Kevin M. Whelan&2005&Security Automation\\
+    \hline
+    \end{tabular}
+    \caption{Review Matrix with Research Papers, authors and purpose}
+\end{table}
