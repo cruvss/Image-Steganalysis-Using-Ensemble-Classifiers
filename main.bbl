@@ -15,11 +15,28 @@ Mark~T Hogan, Neil~J Hurley, Gu{\'e}nol{\'e}~CM Silvestre, F{\'e}lix Balado,
 \newblock In {\em Security, Steganography, and Watermarking of Multimedia
   Contents VII}, volume 5681, pages 16--27. SPIE, 2005.
 
+\bibitem{4}
+Syed~Ali Khayam.
+\newblock The discrete cosine transform (dct): theory and application.
+\newblock {\em Michigan State University}, 114(1):31, 2003.
+
+\bibitem{5}
+Jan Kodovsky, Jessica Fridrich, and Vojtech Holub.
+\newblock Ensemble classifiers for steganalysis of digital media.
+\newblock {\em IEEE Transactions on Information Forensics and Security}, 7, 04
+  2012.
+
 \bibitem{1}
 Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
   Janicki.
 \newblock Detection of image steganography using deep learning and ensemble
   classifiers.
 \newblock {\em Electronics}, 11(10):1565, 2022.
+
+\bibitem{6}
+Arezoo Torkaman and Reza Safabakhsh.
+\newblock A fast and accurate steganalysis using ensemble classifiers.
+\newblock In {\em 2013 8th Iranian Conference on Machine Vision and Image
+  Processing (MVIP)}, pages 22--26, 2013.
 
 \end{thebibliography}

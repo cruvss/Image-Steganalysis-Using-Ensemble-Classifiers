@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.17)  11 DEC 2023 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.17)  28 DEC 2023 23:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -509,13 +509,79 @@ Overfull \hbox (108.26997pt too wide) in paragraph at lines 18--25
 
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/Khwopalogo.jpg>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(-72.26999pt, 794.96999pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=794.96999pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-181.53998pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \openout2 = `Contents/abstract.aux'.
 
  (Contents/abstract.tex [1
 
 
 
-]) (main.toc)
+
+])
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -523,8 +589,9 @@ Overfull \hbox (108.26997pt too wide) in paragraph at lines 18--25
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \listoffigures
+l.29 \listoffigures
                     [1
+
 
 
 
@@ -576,12 +643,7 @@ l.14 \clearpage
 
 ] [2
 
-]
-Overfull \hbox (1.9379pt too wide) in paragraph at lines 22--23
-\OT1/ptm/m/n/12 an-a-lyze the in-tri-cate pat-terns and struc-tures as-so-ci-ated with image-in-image steganog-
- []
-
-) [3
+]) [3
 
 ]
 \openout2 = `Contents/Chapter2.aux'.
@@ -589,7 +651,7 @@ Overfull \hbox (1.9379pt too wide) in paragraph at lines 22--23
  (Contents/Chapter2.tex
 Chapter 2.
 
-Overfull \hbox (24.71854pt too wide) in paragraph at lines 11--22
+Overfull \hbox (24.71854pt too wide) in paragraph at lines 14--31
 [][] 
  []
 
@@ -598,12 +660,16 @@ Overfull \hbox (24.71854pt too wide) in paragraph at lines 11--22
 
 
 
-] [5]
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6]
 \openout2 = `Contents/Chapter3.aux'.
 
  (Contents/Chapter3.tex
 Chapter 3.
-) [6
+) [7
 
 
 
@@ -613,12 +679,12 @@ Chapter 3.
 
  (Contents/Chapter4.tex
 Chapter 4.
-<./img/agile.png, id=170, 652.4375pt x 382.42876pt>
+<./img/agile.png, id=181, 652.4375pt x 382.42876pt>
 File: ./img/agile.png Graphic file (type png)
 <use ./img/agile.png>
 Package pdftex.def Info: ./img/agile.png  used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 133.42024pt.
-<./img/block_d.jpg, id=171, 1161.33875pt x 756.8275pt>
+<./img/block_d.jpg, id=182, 1161.33875pt x 756.8275pt>
 File: ./img/block_d.jpg Graphic file (type jpg)
 <use ./img/block_d.jpg>
 Package pdftex.def Info: ./img/block_d.jpg  used on input line 20.
@@ -628,49 +694,50 @@ Overfull \hbox (43.36464pt too wide) in paragraph at lines 20--21
 [] 
  []
 
-[7
+[8
 
 
 
 
- <./img/agile.png>] [8 <./img/block_d.jpg>]
-<./img/System architecture.jpg, id=187, 617.9085pt x 443.256pt>
+ <./img/agile.png>] [9 <./img/block_d.jpg>] [10
+
+]
+<./img/System architecture.jpg, id=201, 617.9085pt x 443.256pt>
 File: ./img/System architecture.jpg Graphic file (type jpg)
 <use ./img/System architecture.jpg>
-Package pdftex.def Info: ./img/System architecture.jpg  used on input line 26.
+Package pdftex.def Info: ./img/System architecture.jpg  used on input line 44.
 (pdftex.def)             Requested size: 512.1496pt x 367.40865pt.
 
-Overfull \hbox (78.52959pt too wide) in paragraph at lines 26--27
+Overfull \hbox (78.52959pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
-[9
+[11
 
- <./img/System architecture.jpg>]) [10
-
-]
+ <./img/System architecture.jpg>])
 \openout2 = `Contents/Chapter5.aux'.
 
  (Contents/Chapter5.tex
 Chapter 5.
-<./img/gantt_chart.png, id=196, 1697.34125pt x 1029.8475pt>
+<./img/gantt_chart.png, id=206, 1697.34125pt x 1029.8475pt>
 File: ./img/gantt_chart.png Graphic file (type png)
 <use ./img/gantt_chart.png>
 Package pdftex.def Info: ./img/gantt_chart.png  used on input line 4.
 (pdftex.def)             Requested size: 426.79134pt x 258.95409pt.
-[11
+[12
 
 
 
 
- <./img/gantt_chart.png>]) [12
+
+ <./img/gantt_chart.png>]) [13
 
 ]
 \openout2 = `Contents/Chapter6.aux'.
 
  (Contents/Chapter6.tex
 Chapter 6.
-) [13
+) [14
 
 
 
@@ -682,7 +749,7 @@ Chapter 6.
 No file Contents/Chapter7.tex.
 (main.bbl
 Chapter 7.
-) [14
+) [15
 
 
 
@@ -694,17 +761,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6E935B02E335DAE9409F3C7FBCBDD59E;2836.
  ) 
 Here is how much of TeX's memory you used:
- 14878 strings out of 476331
- 253529 string characters out of 5788237
- 1862660 words of memory out of 5000000
- 34941 multiletter control sequences out of 15000+600000
+ 14885 strings out of 476331
+ 253563 string characters out of 5788237
+ 1868660 words of memory out of 5000000
+ 34944 multiletter control sequences out of 15000+600000
  533802 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,1560b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,77p,1483b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 1217113 bytes).
+Output written on main.pdf (21 pages, 1227408 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 \chapter{Methodology}
 \section{Software Development Approach}
-Agile is an iterative process-based approach to software development. In the Agile process model, work is broken down into more manageable, smaller iterations without requiring a lot of long-term planning. The requirements and scope of the project are determined early on, and the number, length, and scope of each iteration are preplanned. Each iteration is considered as a short time "frame" in the Agile process model, which lasts for a few weeks. In each iteration, teams move through the phases of the software development life cycle, which include planning, requirements analysis, design, coding, testing, and demonstration of a working product for client review. Agile places a significant value on flexibility, teamwork, and regular client feedback.\\
+ is an iterative process-based approach to software development. In the Agile process model, work is broken down into more manageable, smaller iterations without requiring a lot of long-term planning. The requirements and scope of the project are determined early on, and the number, length, and scope of each iteration are preplanned. Each iteration is considered as a short time "frame" in the Agile process model, which lasts for a few weeks. In each iteration, teams move through the phases of the software development life cycle, which include planning, requirements analysis, design, coding, testing, and demonstration of a working product for client review. Agile places a significant value on flexibility, teamwork, and regular client feedback.\\
 \begin{figure}[H]
     \centering
     \includegraphics[width=80mm]{./img/agile.png}
@@ -21,12 +21,6 @@ The main reason for which  we choose this development process:
 \caption{ Block diagram of proposed system}
 \end{figure}
 \clearpage
-\section{Description of working flow of proposed system}
-\begin{figure}[H]
-    \includegraphics[width=180mm]{./img/System architecture.jpg}
-    \caption{System Architecture}
-\end{figure}
-\clearpage 
 
 \begin{flushleft}
     \Large{\textbf{Model Training Approach}}\\
@@ -43,5 +37,11 @@ Based on the extracted features, each base learner independently processes its s
 To create an ensemble decision, the choices made by each individual base learner are aggregated and the final decision is to be made by using a voting system which finalizes the result by figuring out the most popular output.\vspace{0.25cm}\\
 \textbf{Efficiency Considerations:}\\
 The proposed system prioritizes efficiency by leveraging shallow machine learning techniques, particularly ensemble classifiers instead of deep learning. The choice of DCT as a feature is intentional to increase efficiency and detection capability of the system.\\
+\clearpage 
 
-
+\section{Description of working flow of proposed system}
+\begin{figure}[H]
+    \includegraphics[width=180mm]{./img/System architecture.jpg}
+    \caption{System Architecture}
+\end{figure}
+\clearpage 
