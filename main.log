@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.17)  28 DEC 2023 23:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.17)  29 DEC 2023 08:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -758,7 +758,7 @@ Chapter 7.
 
 ] (main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Chapter7.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6E935B02E335DAE9409F3C7FBCBDD59E;2836.
+(rerunfilecheck)             Checksum: EEC0692FC18091A30935F563A2F8261C;2686.
  ) 
 Here is how much of TeX's memory you used:
  14885 strings out of 476331
@@ -767,9 +767,9 @@ Here is how much of TeX's memory you used:
  34944 multiletter control sequences out of 15000+600000
  533802 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,1483b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,77p,1458b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 1227408 bytes).
+Output written on main.pdf (21 pages, 1227193 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)

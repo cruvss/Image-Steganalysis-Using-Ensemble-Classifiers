@@ -12,7 +12,7 @@
 \contentsline {chapter}{\numberline {4}Methodology}{8}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Software Development Approach}{8}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Block diagram of proposed system}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Description of working flow of proposed system}{11}{section.4.3}%
+\contentsline {section}{\numberline {4.3}System Architecture}{11}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Implementation Plan}{12}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Gantt Chart}{12}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Software Requirement}{13}{section.5.2}%
