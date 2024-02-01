@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{2}
 George Berg, Ian Davidson, Ming{-}Yuan Duan, and Goutam Paul.
@@ -20,11 +20,30 @@ Syed~Ali Khayam.
 \newblock The discrete cosine transform (dct): theory and application.
 \newblock {\em Michigan State University}, 114(1):31, 2003.
 
+\bibitem{8}
+Jan Kodovsky and Jessica Fridrich.
+\newblock Steganalysis in high dimensions: Fusing classifiers built on random
+  subspaces.
+\newblock {\em Proceedings of SPIE - The International Society for Optical
+  Engineering}, 02 2011.
+
 \bibitem{5}
 Jan Kodovsky, Jessica Fridrich, and Vojtech Holub.
 \newblock Ensemble classifiers for steganalysis of digital media.
 \newblock {\em IEEE Transactions on Information Forensics and Security}, 7, 04
   2012.
+
+\bibitem{9}
+Jan Kodovský and Jessica Fridrich.
+\newblock Calibration revisited.
+\newblock In {\em Proceedings of the 11th ACM Workshop on Multimedia and
+  Security}, MM\&Sec '09, page 63–74, New York, NY, USA, 2009. Association
+  for Computing Machinery.
+
+\bibitem{11}
+Tom{\'a}{\v{s}} Pevn{\'y} and Jessica~J. Fridrich.
+\newblock Merging markov and dct features for multi-class jpeg steganalysis.
+\newblock In {\em Electronic imaging}, 2007.
 
 \bibitem{1}
 Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
@@ -33,10 +52,25 @@ Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
   classifiers.
 \newblock {\em Electronics}, 11(10):1565, 2022.
 
+\bibitem{10}
+Yun~Q. Shi, Chunhua Chen, and Wen Chen.
+\newblock A markov process based approach to effective attacking jpeg
+  steganography.
+\newblock In Jan~L. Camenisch, Christian~S. Collberg, Neil~F. Johnson, and Phil
+  Sallee, editors, {\em Information Hiding}, pages 249--264, Berlin,
+  Heidelberg, 2007. Springer Berlin Heidelberg.
+
 \bibitem{6}
 Arezoo Torkaman and Reza Safabakhsh.
 \newblock A fast and accurate steganalysis using ensemble classifiers.
 \newblock In {\em 2013 8th Iranian Conference on Machine Vision and Image
   Processing (MVIP)}, pages 22--26, 2013.
+
+\bibitem{7}
+Zhongliang Yang, Ke~Wang, Sai Ma, Yongfeng Huang, Xiangui Kang, and Xianfeng
+  Zhao.
+\newblock Istego100k: Large-scale image steganalysis dataset.
+\newblock In {\em International Workshop on Digital Watermarking}. Springer,
+  2019.
 
 \end{thebibliography}

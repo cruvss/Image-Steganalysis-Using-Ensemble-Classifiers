@@ -19,50 +19,50 @@ Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: Contents/Chapter5.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: Contents/Chapter6.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: Contents/Chapter7.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
-You've used 6 entries,
+Warning--I didn't find a database entry for ""
+You've used 11 entries,
             2118 wiz_defined-function locations,
-            547 strings with 5387 characters,
-and the built_in function-call counts, 2360 in all, are:
-= -- 226
-> -- 120
-< -- 4
-+ -- 48
-- -- 40
-* -- 166
-:= -- 387
-add.period$ -- 20
-call.type$ -- 6
-change.case$ -- 37
+            577 strings with 6361 characters,
+and the built_in function-call counts, 4300 in all, are:
+= -- 416
+> -- 224
+< -- 6
++ -- 88
+- -- 74
+* -- 284
+:= -- 698
+add.period$ -- 38
+call.type$ -- 11
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 95
-empty$ -- 179
-format.name$ -- 40
-if$ -- 506
+cite$ -- 11
+duplicate$ -- 185
+empty$ -- 326
+format.name$ -- 74
+if$ -- 935
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 33
-num.names$ -- 14
-pop$ -- 38
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 26
+pop$ -- 79
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 56
 quote$ -- 0
-skip$ -- 73
+skip$ -- 139
 stack$ -- 0
-substring$ -- 118
-swap$ -- 31
-text.length$ -- 4
+substring$ -- 190
+swap$ -- 62
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 44
 warning$ -- 0
-while$ -- 23
-width$ -- 7
-write$ -- 71
+while$ -- 38
+width$ -- 13
+write$ -- 129
+(There was 1 warning)
