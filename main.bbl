@@ -92,6 +92,11 @@ Tayana Morkel, Jan~HP Eloff, and Martin~S Olivier.
 \newblock An overview of image steganography.
 \newblock In {\em ISSA}, volume~1, pages 1--11, 2005.
 
+\bibitem{20}
+Arooj Nissar and Ajaz~Hussain Mir.
+\newblock Classification of steganalysis techniques: A study.
+\newblock {\em Digital Signal Processing}, 20(6):1758--1770, 2010.
+
 \bibitem{11}
 Tom{\'a}{\v{s}} Pevn{\'y} and Jessica~J. Fridrich.
 \newblock Merging markov and dct features for multi-class jpeg steganalysis.
