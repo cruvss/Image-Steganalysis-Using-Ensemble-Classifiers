@@ -5,18 +5,18 @@
 \contentsline {chapter}{List of Abbreviation}{iv}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Feasibility study}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Methodology}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Software Development Approach}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Block diagram of proposed system}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}System Architecture}{11}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Implementation Plan}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Gantt Chart}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Software Requirement}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Hardware Requirement}{13}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Expected Outcomes}{14}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Bibliography}{15}{chapter.7}%
+\contentsline {chapter}{\numberline {3}Feasibility study}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Methodology}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Software Development Approach}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Block diagram of proposed system}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}System Architecture}{12}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Implementation Plan}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Gantt Chart}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Software Requirement}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Hardware Requirement}{14}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Expected Outcomes}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Bibliography}{16}{chapter.7}%
 \contentsfinish 

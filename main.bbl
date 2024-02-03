@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{16}
+Osama~F AbdelWahab, Aziza~I Hussein, Hesham~FA Hamed, Hamdy~M Kelash, Ashraf~AM
+  Khalaf, and Hanafy~M Ali.
+\newblock Hiding data in images using steganography techniques with compression
+  algorithms.
+\newblock {\em TELKOMNIKA (Telecommunication Computing Electronics and
+  Control)}, 17(3):1168--1175, 2019.
+
 \bibitem{2}
 George Berg, Ian Davidson, Ming{-}Yuan Duan, and Goutam Paul.
 \newblock Searching for hidden messages: Automatic detection of steganography.
@@ -7,6 +15,38 @@ George Berg, Ian Davidson, Ming{-}Yuan Duan, and Goutam Paul.
   the Fifteenth Conference on Innovative Applications of Artificial
   Intelligence, August 12-14, 2003, Acapulco, Mexico}, pages 51--56. {AAAI},
   2003.
+
+\bibitem{17}
+Jessica Fridrich, Miroslav Goljan, and Dorin Hogea.
+\newblock Steganalysis of jpeg images: Breaking the f5 algorithm.
+\newblock In {\em Information Hiding: 5th International Workshop, IH 2002
+  Noordwijkerhout, The Netherlands, October 7-9, 2002 Revised Papers 5}, pages
+  310--323. Springer, 2003.
+
+\bibitem{12}
+Jessica Fridrich, Miroslav Goljan, and David Soukal.
+\newblock Efficient wet paper codes.
+\newblock In {\em International Workshop on Information Hiding}, pages
+  204--218. Springer, 2005.
+
+\bibitem{13}
+Jessica Fridrich, Petr Lison{\v{e}}k, and David Soukal.
+\newblock On steganographic embedding efficiency.
+\newblock In {\em Information Hiding: 8th International Workshop, IH 2006,
+  Alexandria, VA, USA, July 10-12, 2006. Revised Selcted Papers 8}, pages
+  282--296. Springer, 2007.
+
+\bibitem{18}
+Junjun Gan, Jiufen Liu, Xiangyang Luo, Chunfang Yang, and Fenlin Liu.
+\newblock Reliable steganalysis of hugo steganography based on partially known
+  plaintext.
+\newblock {\em Multimedia Tools and Applications}, 77(14):18007--18027, 2018.
+
+\bibitem{15}
+Ojaas Hampiholi.
+\newblock Image compression — dct method, 2021.
+\newblock
+  \url{https://www.https://towardsdatascience.com/image-compression-dct-method-f2bb79419587}.
 
 \bibitem{3}
 Mark~T Hogan, Neil~J Hurley, Gu{\'e}nol{\'e}~CM Silvestre, F{\'e}lix Balado,
@@ -39,6 +79,18 @@ Jan Kodovský and Jessica Fridrich.
 \newblock In {\em Proceedings of the 11th ACM Workshop on Multimedia and
   Security}, MM\&Sec '09, page 63–74, New York, NY, USA, 2009. Association
   for Computing Machinery.
+
+\bibitem{19}
+Xiangyang Luo, Xiaofeng Song, Xiaolong Li, Weiming Zhang, Jicang Lu, Chunfang
+  Yang, and Fenlin Liu.
+\newblock Steganalysis of hugo steganography based on parameter recognition of
+  syndrome-trellis-codes.
+\newblock {\em Multimedia Tools and Applications}, 75:13557--13583, 2016.
+
+\bibitem{14}
+Tayana Morkel, Jan~HP Eloff, and Martin~S Olivier.
+\newblock An overview of image steganography.
+\newblock In {\em ISSA}, volume~1, pages 1--11, 2005.
 
 \bibitem{11}
 Tom{\'a}{\v{s}} Pevn{\'y} and Jessica~J. Fridrich.

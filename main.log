@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  2 FEB 2024 00:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  2 FEB 2024 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -92,10 +92,131 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangrammax=\count279
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+ (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box51
+))
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count281
+\l__tblr_c_int=\count282
+\l__tblr_r_int=\count283
+\l__tblr_d_dim=\dimen144
+\l__tblr_h_dim=\dimen145
+\l__tblr_o_dim=\dimen146
+\l__tblr_p_dim=\dimen147
+\l__tblr_q_dim=\dimen148
+\l__tblr_r_dim=\dimen149
+\l__tblr_s_dim=\dimen150
+\l__tblr_t_dim=\dimen151
+\l__tblr_v_dim=\dimen152
+\l__tblr_w_dim=\dimen153
+\l__tblr_a_box=\box52
+\l__tblr_b_box=\box53
+\l__tblr_c_box=\box54
+\l__tblr_d_box=\box55
+\g__tblr_table_count_int=\count284
+\c@rownum=\count285
+\c@colnum=\count286
+\c@rowcount=\count287
+\c@colcount=\count288
+\abovesep=\dimen154
+\belowsep=\dimen155
+\leftsep=\dimen156
+\rightsep=\dimen157
+\g_tblr_level_int=\count289
+\g__tblr_data_row_key_count_int=\count290
+\g__tblr_data_column_key_count_int=\count291
+\g__tblr_data_cell_key_count_int=\count292
+\g__tblr_array_int=\count293
+\l__tblr_key_count_int=\count294
+\l__tblr_key_quotient_int=\count295
+\l__tblr_key_quotient_two_int=\count296
+\l__tblr_key_remainder_int=\count297
+\g__tblr_data_str_value_count_int=\count298
+\rulewidth=\dimen158
+\l__tblr_strut_dp_dim=\dimen159
+\l__tblr_strut_ht_dim=\dimen160
+\g__tblr_cell_wd_dim=\dimen161
+\g__tblr_cell_ht_dim=\dimen162
+\g__tblr_cell_head_dim=\dimen163
+\g__tblr_cell_foot_dim=\dimen164
+\l__column_target_dim=\dimen165
+\l__tblr_caption_box=\box56
+\l__tblr_caption_left_box=\box57
+\l__tblr_row_head_box=\box58
+\l__tblr_row_foot_box=\box59
+\l__tblr_row_head_foot_dim=\dimen166
+\tablewidth=\dimen167
+\l__tblr_table_firsthead_box=\box60
+\l__tblr_table_middlehead_box=\box61
+\l__tblr_table_lasthead_box=\box62
+\l__tblr_table_firstfoot_box=\box63
+\l__tblr_table_middlefoot_box=\box64
+\l__tblr_table_lastfoot_box=\box65
+\l__tblr_remain_height_dim=\dimen168
+\l__tblr_long_from_int=\count299
+\l__tblr_long_to_int=\count300
+\l__tblr_curr_i_int=\count301
+\l__tblr_prev_i_int=\count302
+\l__tblr_table_page_int=\count303
+\l__tblr_table_head_box=\box66
+\l__tblr_table_foot_box=\box67
+\l__tblr_table_head_foot_dim=\dimen169
+\l__tblr_table_head_body_foot_dim=\dimen170
+\l__tblr_table_box=\box68
+\l__tblr_table_hlines_box=\box69
+\l__tblr_hline_box=\box70
+\l__tblr_row_box=\box71
+\l__tblr_col_o_wd_dim=\dimen171
+\l__tblr_col_b_wd_dim=\dimen172
+\l__tblr_hline_leftskip_dim=\dimen173
+\l__tblr_hline_rightskip_dim=\dimen174
+\l__tblr_row_ht_dim=\dimen175
+\l__tblr_row_dp_dim=\dimen176
+\l__tblr_row_abovesep_dim=\dimen177
+\l__tblr_row_belowsep_dim=\dimen178
+\l__tblr_row_vlines_box=\box72
+\l__tblr_vline_box=\box73
+\l__tblr_cell_box=\box74
+\l__row_upper_dim=\dimen179
+\l__row_lower_dim=\dimen180
+\l__row_vpace_dim=\dimen181
+\l__tblr_vline_aboveskip_dim=\dimen182
+\l__tblr_vline_belowskip_dim=\dimen183
+\l__tblr_cell_wd_dim=\dimen184
+\l__tblr_cell_ht_dim=\dimen185
+\l__tblr_diag_box=\box75
+) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen186
+\ar@mcellbox=\box76
+\extrarowheight=\dimen187
+\NC@list=\toks18
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box77
+)
+\TX@col@width=\dimen188
+\TX@old@table=\dimen189
+\TX@old@col=\dimen190
+\TX@target=\dimen191
+\TX@delta=\dimen192
+\TX@cols=\count304
+\TX@ftn=\toks19
+) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count305
+\xs_countb=\count306
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -103,103 +224,103 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count280
-\Gm@cntv=\count281
-\c@Gm@tempcnt=\count282
-\Gm@bindingoffset=\dimen144
-\Gm@wd@mp=\dimen145
-\Gm@odd@mp=\dimen146
-\Gm@even@mp=\dimen147
-\Gm@layoutwidth=\dimen148
-\Gm@layoutheight=\dimen149
-\Gm@layouthoffset=\dimen150
-\Gm@layoutvoffset=\dimen151
-\Gm@dimlist=\toks20
+\Gm@cnth=\count307
+\Gm@cntv=\count308
+\c@Gm@tempcnt=\count309
+\Gm@bindingoffset=\dimen193
+\Gm@wd@mp=\dimen194
+\Gm@odd@mp=\dimen195
+\Gm@even@mp=\dimen196
+\Gm@layoutwidth=\dimen197
+\Gm@layoutheight=\dimen198
+\Gm@layouthoffset=\dimen199
+\Gm@layoutvoffset=\dimen256
+\Gm@dimlist=\toks22
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen152
-\captionmargin=\dimen153
-\caption@leftmargin=\dimen154
-\caption@rightmargin=\dimen155
-\caption@width=\dimen156
-\caption@indent=\dimen157
-\caption@parindent=\dimen158
-\caption@hangindent=\dimen159
+\caption@tempdima=\dimen257
+\captionmargin=\dimen258
+\caption@leftmargin=\dimen259
+\caption@rightmargin=\dimen260
+\caption@width=\dimen261
+\caption@indent=\dimen262
+\caption@parindent=\dimen263
+\caption@hangindent=\dimen264
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count283
-\c@continuedfloat=\count284
+\c@caption@flags=\count310
+\c@continuedfloat=\count311
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count285
+\c@subfigure=\count312
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count286
+\c@subtable=\count313
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen160
+\@emptytoks=\toks23
+\ex@=\dimen265
 )) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen161
+\pmbraise@=\dimen266
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count287
+\inf@bad=\count314
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count288
-\leftroot@=\count289
+\uproot@=\count315
+\leftroot@=\count316
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count290
-\DOTSCASE@=\count291
+\classnum@=\count317
+\DOTSCASE@=\count318
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box78
+\strutbox@=\box79
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen162
+\big@size=\dimen267
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count292
+\macc@depth=\count319
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count293
+\c@MaxMatrixCols=\count320
 \dotsspace@=\muskip16
-\c@parentequation=\count294
-\dspbrk@lvl=\count295
-\tag@help=\toks22
-\row@=\count296
-\column@=\count297
-\maxfields@=\count298
-\andhelp@=\toks23
-\eqnshift@=\dimen163
-\alignsep@=\dimen164
-\tagshift@=\dimen165
-\tagwidth@=\dimen166
-\totwidth@=\dimen167
-\lineht@=\dimen168
-\@envbody=\toks24
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks25
+\c@parentequation=\count321
+\dspbrk@lvl=\count322
+\tag@help=\toks24
+\row@=\count323
+\column@=\count324
+\maxfields@=\count325
+\andhelp@=\toks25
+\eqnshift@=\dimen268
+\alignsep@=\dimen269
+\tagshift@=\dimen270
+\tagwidth@=\dimen271
+\totwidth@=\dimen272
+\lineht@=\dimen273
+\@envbody=\toks26
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
@@ -244,14 +365,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count299
+\c@section@level=\count326
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count300
+\etb@tempcnta=\count327
 )
-\@linkdim=\dimen169
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\@linkdim=\dimen274
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -259,7 +380,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count330
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -272,21 +393,21 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count331
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4772.
-\XeTeXLinkMargin=\dimen170
+\XeTeXLinkMargin=\dimen275
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count305
-\Field@Width=\dimen171
-\Fld@charsize=\dimen172
+\Fld@menulength=\count332
+\Field@Width=\dimen276
+\Fld@charsize=\dimen277
 Package hyperref Info: Hyper figures OFF on input line 6051.
 Package hyperref Info: Link nesting OFF on input line 6056.
 Package hyperref Info: Hyper index ON on input line 6059.
@@ -298,9 +419,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count333
+\c@Item=\count334
+\c@Hfootnote=\count335
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -309,8 +430,8 @@ File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count336
+\c@bookmark@seq@number=\count337
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -318,29 +439,29 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip55
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count311
-\float@exts=\toks26
-\float@box=\box53
-\@float@everytoks=\toks27
-\@floatcapt=\box54
+\c@float@type=\count338
+\float@exts=\toks28
+\float@box=\box80
+\@float@everytoks=\toks29
+\@floatcapt=\box81
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip54
-\enit@outerparindent=\dimen173
-\enit@toks=\toks28
-\enit@inbox=\box55
-\enit@count@id=\count312
-\enitdp@description=\count313
+\labelindent=\skip56
+\enit@outerparindent=\dimen278
+\enit@toks=\toks30
+\enit@inbox=\box82
+\enit@count@id=\count339
+\enitdp@description=\count340
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen174
+\ttl@leftsep=\dimen279
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -353,10 +474,10 @@ Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count314
+\XKV@depth=\count341
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -364,41 +485,37 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box56
+\collectedbox=\box83
 )
-\tc@llx=\dimen175
-\tc@lly=\dimen176
-\tc@urx=\dimen177
-\tc@ury=\dimen178
+\tc@llx=\dimen280
+\tc@lly=\dimen281
+\tc@urx=\dimen282
+\tc@ury=\dimen283
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen179
-\adjbox@Height=\dimen180
-\adjbox@Depth=\dimen181
-\adjbox@Totalheight=\dimen182
-\adjbox@pwidth=\dimen183
-\adjbox@pheight=\dimen184
-\adjbox@pdepth=\dimen185
-\adjbox@ptotalheight=\dimen186
+\adjbox@Width=\dimen284
+\adjbox@Height=\dimen285
+\adjbox@Depth=\dimen286
+\adjbox@Totalheight=\dimen287
+\adjbox@pwidth=\dimen288
+\adjbox@pheight=\dimen289
+\adjbox@pdepth=\dimen290
+\adjbox@ptotalheight=\dimen291
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count315
+\c@checkoddpage=\count342
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box57
-\sift@deathcycles=\count316
-\@vwid@loff=\dimen187
-\@vwid@roff=\dimen188
+\@vwid@box=\box84
+\sift@deathcycles=\count343
+\@vwid@loff=\dimen292
+\@vwid@roff=\dimen293
 ))
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 21.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 24.
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count317
-\l__pdf_internal_box=\box58
 )
 
 LaTeX Warning: Unused global option(s):
@@ -407,37 +524,37 @@ LaTeX Warning: Unused global option(s):
 (main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen189
-\scratchbox=\box59
-\nofMPsegments=\count319
-\nofMParguments=\count320
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen190
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count344
+\scratchdimen=\dimen294
+\scratchbox=\box85
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen295
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -482,7 +599,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 24.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -591,7 +708,7 @@ Overfull \hbox (108.26997pt too wide) in paragraph at lines 18--25
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \listoffigures
+l.32 \listoffigures
                     [1
 
 
@@ -620,32 +737,29 @@ l.29 \listoffigures
 
  (Contents/Chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9.
-(C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+<./img/compression.png, id=145, 1384.42218pt x 150.5625pt>
+File: ./img/compression.png Graphic file (type png)
+<use ./img/compression.png>
+Package pdftex.def Info: ./img/compression.png  used on input line 8.
+(pdftex.def)             Requested size: 433.62001pt x 47.15863pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 17.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \clearpage
-                [1
+l.23 \end{equation}
+                    [1
 
 
 
 
-] [2
-
-]) [3
+ <./img/compression.png>] [2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 52.
+ (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) [3
 
 ]
 \openout2 = `Contents/Chapter2.aux'.
@@ -653,13 +767,8 @@ l.14 \clearpage
  (Contents/Chapter2.tex
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--12
-
+Overfull \hbox (3.55354pt too wide) in paragraph at lines 16--16
+[]|\OT1/ptm/m/n/10 S.N.| 
  []
 
 [4
@@ -668,19 +777,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
 
 ]
-Overfull \hbox (24.71854pt too wide) in paragraph at lines 17--34
-[][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [5] [6]
+[5] [6]
+Overfull \hbox (3.55354pt too wide) in paragraph at lines 30--30
+[]|\OT1/ptm/m/n/10 S.N.| 
+ []
+
+) [7
+
+]
 \openout2 = `Contents/Chapter3.aux'.
 
  (Contents/Chapter3.tex
 Chapter 3.
-) [7
+) [8
 
 
 
@@ -690,12 +802,12 @@ Chapter 3.
 
  (Contents/Chapter4.tex
 Chapter 4.
-<./img/agile.png, id=191, 652.4375pt x 382.42876pt>
+<./img/agile.png, id=240, 652.4375pt x 382.42876pt>
 File: ./img/agile.png Graphic file (type png)
 <use ./img/agile.png>
 Package pdftex.def Info: ./img/agile.png  used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 133.42024pt.
-<./img/block_d.jpg, id=192, 1161.33875pt x 756.8275pt>
+<./img/block_d.jpg, id=241, 1161.33875pt x 756.8275pt>
 File: ./img/block_d.jpg Graphic file (type jpg)
 <use ./img/block_d.jpg>
 Package pdftex.def Info: ./img/block_d.jpg  used on input line 20.
@@ -705,15 +817,15 @@ Overfull \hbox (43.36464pt too wide) in paragraph at lines 20--21
 [] 
  []
 
-[8
+[9
 
 
 
 
- <./img/agile.png>] [9 <./img/block_d.jpg>] [10
+ <./img/agile.png>] [10 <./img/block_d.jpg>] [11
 
 ]
-<./img/System architecture.jpg, id=211, 617.9085pt x 443.256pt>
+<./img/System architecture.jpg, id=260, 617.9085pt x 443.256pt>
 File: ./img/System architecture.jpg Graphic file (type jpg)
 <use ./img/System architecture.jpg>
 Package pdftex.def Info: ./img/System architecture.jpg  used on input line 44.
@@ -723,43 +835,46 @@ Overfull \hbox (78.52959pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
-[11
+[12
 
  <./img/System architecture.jpg>])
 \openout2 = `Contents/Chapter5.aux'.
 
  (Contents/Chapter5.tex
 Chapter 5.
-<./img/gantt_chart.png, id=216, 1697.34125pt x 1029.8475pt>
+<./img/gantt_chart.png, id=265, 1697.34125pt x 1029.8475pt>
 File: ./img/gantt_chart.png Graphic file (type png)
 <use ./img/gantt_chart.png>
 Package pdftex.def Info: ./img/gantt_chart.png  used on input line 4.
 (pdftex.def)             Requested size: 426.79134pt x 258.95409pt.
-[12
+[13
 
 
 
 
 
- <./img/gantt_chart.png>]) [13
+ <./img/gantt_chart.png>]) [14
 
 ]
 \openout2 = `Contents/Chapter6.aux'.
 
  (Contents/Chapter6.tex
 Chapter 6.
-) [14
+) [15
 
 
 
 
 ] (main.bbl
 Chapter 7.
-) [15
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 49.
+(C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [16
 
 
 
-] (main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux))
+]) [17] (main.aux (Contents/coverpage.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -768,17 +883,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EEC0692FC18091A30935F563A2F8261C;2686.
  ) 
 Here is how much of TeX's memory you used:
- 15067 strings out of 475248
- 249420 string characters out of 5757814
- 1935785 words of memory out of 5000000
- 36219 multiletter control sequences out of 15000+600000
- 580817 words of font info for 84 fonts, out of 8000000 for 9000
+ 17367 strings out of 475248
+ 303263 string characters out of 5757814
+ 1941785 words of memory out of 5000000
+ 38477 multiletter control sequences out of 15000+600000
+ 581332 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,1438b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 1232542 bytes).
+ 75i,11n,79p,1440b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (23 pages, 1473207 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

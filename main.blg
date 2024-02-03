@@ -24,45 +24,45 @@ The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
 Warning--I didn't find a database entry for ""
-You've used 11 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            577 strings with 6361 characters,
-and the built_in function-call counts, 4300 in all, are:
-= -- 416
-> -- 224
-< -- 6
-+ -- 88
-- -- 74
-* -- 284
-:= -- 698
-add.period$ -- 38
-call.type$ -- 11
-change.case$ -- 67
+            620 strings with 7927 characters,
+and the built_in function-call counts, 7878 in all, are:
+= -- 777
+> -- 402
+< -- 11
++ -- 159
+- -- 136
+* -- 545
+:= -- 1252
+add.period$ -- 65
+call.type$ -- 19
+change.case$ -- 122
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 185
-empty$ -- 326
-format.name$ -- 74
-if$ -- 935
+cite$ -- 19
+duplicate$ -- 313
+empty$ -- 597
+format.name$ -- 136
+if$ -- 1706
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 26
-pop$ -- 79
+int.to.str$ -- 19
+missing$ -- 18
+newline$ -- 98
+num.names$ -- 42
+pop$ -- 144
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 103
 quote$ -- 0
-skip$ -- 139
+skip$ -- 236
 stack$ -- 0
-substring$ -- 190
-swap$ -- 62
-text.length$ -- 6
+substring$ -- 451
+swap$ -- 107
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 76
 warning$ -- 0
-while$ -- 38
-width$ -- 13
-write$ -- 129
+while$ -- 72
+width$ -- 21
+write$ -- 220
 (There was 1 warning)
