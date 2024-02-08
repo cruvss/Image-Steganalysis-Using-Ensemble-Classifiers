@@ -80,6 +80,11 @@ Jan Kodovský and Jessica Fridrich.
   Security}, MM\&Sec '09, page 63–74, New York, NY, USA, 2009. Association
   for Computing Machinery.
 
+\bibitem{22}
+NV~Koshkina.
+\newblock J-uniward steganoanalysis.
+\newblock {\em Cybernetics and Systems Analysis}, 57(3):501--508, 2021.
+
 \bibitem{19}
 Xiangyang Luo, Xiaofeng Song, Xiaolong Li, Weiming Zhang, Jicang Lu, Chunfang
   Yang, and Fenlin Liu.
@@ -108,6 +113,11 @@ Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
 \newblock Detection of image steganography using deep learning and ensemble
   classifiers.
 \newblock {\em Electronics}, 11(10):1565, 2022.
+
+\bibitem{21}
+Lior Rokach.
+\newblock Ensemble-based classifiers.
+\newblock {\em Artificial intelligence review}, 33:1--39, 2010.
 
 \bibitem{10}
 Yun~Q. Shi, Chunhua Chen, and Wen Chen.
