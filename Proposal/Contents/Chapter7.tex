@@ -1,0 +1,17 @@
+\chapter{Works Completed}\sloppy
+
+The initially estimated tasks which were presumed to be completed have been completed successfully. According to the Gantt chart, we have successfully completed the work specified such as:
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Dataset Preprocessing:} \\
+    We have effectively preprocessed datasets from the BOSS dataset and IStego100K dataset. This involved primarily focusing on JPEG files, as the datasets were predominantly in the .pgm file type. The preprocessing stage was essential to extract the desired features for our analysis.
+    
+    \item \textbf{Feature Extraction:} \\
+    For our analysis, the CC-CN features were determined to be the most effective for detecting steganographically modified images. Given the large number of co-occurrence matrices, we decided to focus on the top 300 features (CC-C300). We successfully extracted these features from a dataset comprising 100,000 images.
+    
+    \item \textbf{Model Training and Accuracy:} \\
+    We have trained a model using the extracted CC-C300 features, achieving an OOB error of 0.2899 for “universal steganographic detection”. It is worth noting that this model’s accuracy is expected to increase when applied to datasets with specific steganography algorithms.
+    
+    \item \textbf{Comparative Analysis:} \\
+    Our analysis included training the model using different features. Among these, CC-C300 consistently outperformed other features, further validating our choice.
+\end{enumerate}
