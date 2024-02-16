@@ -1,0 +1,143 @@
+\begin{thebibliography}{10}
+
+\bibitem{16}
+Osama~F AbdelWahab, Aziza~I Hussein, Hesham~FA Hamed, Hamdy~M Kelash, Ashraf~AM
+  Khalaf, and Hanafy~M Ali.
+\newblock Hiding data in images using steganography techniques with compression
+  algorithms.
+\newblock {\em TELKOMNIKA (Telecommunication Computing Electronics and
+  Control)}, 17(3):1168--1175, 2019.
+
+\bibitem{2}
+George Berg, Ian Davidson, Ming{-}Yuan Duan, and Goutam Paul.
+\newblock Searching for hidden messages: Automatic detection of steganography.
+\newblock In John Riedl and Randall W.~Hill Jr., editors, {\em Proceedings of
+  the Fifteenth Conference on Innovative Applications of Artificial
+  Intelligence, August 12-14, 2003, Acapulco, Mexico}, pages 51--56. {AAAI},
+  2003.
+
+\bibitem{17}
+Jessica Fridrich, Miroslav Goljan, and Dorin Hogea.
+\newblock Steganalysis of jpeg images: Breaking the f5 algorithm.
+\newblock In {\em Information Hiding: 5th International Workshop, IH 2002
+  Noordwijkerhout, The Netherlands, October 7-9, 2002 Revised Papers 5}, pages
+  310--323. Springer, 2003.
+
+\bibitem{12}
+Jessica Fridrich, Miroslav Goljan, and David Soukal.
+\newblock Efficient wet paper codes.
+\newblock In {\em International Workshop on Information Hiding}, pages
+  204--218. Springer, 2005.
+
+\bibitem{13}
+Jessica Fridrich, Petr Lison{\v{e}}k, and David Soukal.
+\newblock On steganographic embedding efficiency.
+\newblock In {\em Information Hiding: 8th International Workshop, IH 2006,
+  Alexandria, VA, USA, July 10-12, 2006. Revised Selcted Papers 8}, pages
+  282--296. Springer, 2007.
+
+\bibitem{18}
+Junjun Gan, Jiufen Liu, Xiangyang Luo, Chunfang Yang, and Fenlin Liu.
+\newblock Reliable steganalysis of hugo steganography based on partially known
+  plaintext.
+\newblock {\em Multimedia Tools and Applications}, 77(14):18007--18027, 2018.
+
+\bibitem{15}
+Ojaas Hampiholi.
+\newblock Image compression — dct method, 2021.
+\newblock
+  \url{https://www.https://towardsdatascience.com/image-compression-dct-method-f2bb79419587}.
+
+\bibitem{3}
+Mark~T Hogan, Neil~J Hurley, Gu{\'e}nol{\'e}~CM Silvestre, F{\'e}lix Balado,
+  and Kevin~M Whelan.
+\newblock Ml detection of steganography.
+\newblock In {\em Security, Steganography, and Watermarking of Multimedia
+  Contents VII}, volume 5681, pages 16--27. SPIE, 2005.
+
+\bibitem{4}
+Syed~Ali Khayam.
+\newblock The discrete cosine transform (dct): theory and application.
+\newblock {\em Michigan State University}, 114(1):31, 2003.
+
+\bibitem{8}
+Jan Kodovsky and Jessica Fridrich.
+\newblock Steganalysis in high dimensions: Fusing classifiers built on random
+  subspaces.
+\newblock {\em Proceedings of SPIE - The International Society for Optical
+  Engineering}, 02 2011.
+
+\bibitem{5}
+Jan Kodovsky, Jessica Fridrich, and Vojtech Holub.
+\newblock Ensemble classifiers for steganalysis of digital media.
+\newblock {\em IEEE Transactions on Information Forensics and Security}, 7, 04
+  2012.
+
+\bibitem{9}
+Jan Kodovský and Jessica Fridrich.
+\newblock Calibration revisited.
+\newblock In {\em Proceedings of the 11th ACM Workshop on Multimedia and
+  Security}, MM\&Sec '09, page 63–74, New York, NY, USA, 2009. Association
+  for Computing Machinery.
+
+\bibitem{22}
+NV~Koshkina.
+\newblock J-uniward steganoanalysis.
+\newblock {\em Cybernetics and Systems Analysis}, 57(3):501--508, 2021.
+
+\bibitem{19}
+Xiangyang Luo, Xiaofeng Song, Xiaolong Li, Weiming Zhang, Jicang Lu, Chunfang
+  Yang, and Fenlin Liu.
+\newblock Steganalysis of hugo steganography based on parameter recognition of
+  syndrome-trellis-codes.
+\newblock {\em Multimedia Tools and Applications}, 75:13557--13583, 2016.
+
+\bibitem{14}
+Tayana Morkel, Jan~HP Eloff, and Martin~S Olivier.
+\newblock An overview of image steganography.
+\newblock In {\em ISSA}, volume~1, pages 1--11, 2005.
+
+\bibitem{20}
+Arooj Nissar and Ajaz~Hussain Mir.
+\newblock Classification of steganalysis techniques: A study.
+\newblock {\em Digital Signal Processing}, 20(6):1758--1770, 2010.
+
+\bibitem{11}
+Tom{\'a}{\v{s}} Pevn{\'y} and Jessica~J. Fridrich.
+\newblock Merging markov and dct features for multi-class jpeg steganalysis.
+\newblock In {\em Electronic imaging}, 2007.
+
+\bibitem{1}
+Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
+  Janicki.
+\newblock Detection of image steganography using deep learning and ensemble
+  classifiers.
+\newblock {\em Electronics}, 11(10):1565, 2022.
+
+\bibitem{21}
+Lior Rokach.
+\newblock Ensemble-based classifiers.
+\newblock {\em Artificial intelligence review}, 33:1--39, 2010.
+
+\bibitem{10}
+Yun~Q. Shi, Chunhua Chen, and Wen Chen.
+\newblock A markov process based approach to effective attacking jpeg
+  steganography.
+\newblock In Jan~L. Camenisch, Christian~S. Collberg, Neil~F. Johnson, and Phil
+  Sallee, editors, {\em Information Hiding}, pages 249--264, Berlin,
+  Heidelberg, 2007. Springer Berlin Heidelberg.
+
+\bibitem{6}
+Arezoo Torkaman and Reza Safabakhsh.
+\newblock A fast and accurate steganalysis using ensemble classifiers.
+\newblock In {\em 2013 8th Iranian Conference on Machine Vision and Image
+  Processing (MVIP)}, pages 22--26, 2013.
+
+\bibitem{7}
+Zhongliang Yang, Ke~Wang, Sai Ma, Yongfeng Huang, Xiangui Kang, and Xianfeng
+  Zhao.
+\newblock Istego100k: Large-scale image steganalysis dataset.
+\newblock In {\em International Workshop on Digital Watermarking}. Springer,
+  2019.
+
+\end{thebibliography}

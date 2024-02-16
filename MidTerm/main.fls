@@ -1,6 +1,6 @@
-PWD d:\desktop\Minor project\Steganalysis Using Ensemble Classifiers\Proposal
+PWD d:\desktop\Minor project\Steganalysis Using Ensemble Classifiers\MidTerm
 INPUT C:\Users\sachi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\desktop\Minor project\Steganalysis Using Ensemble Classifiers\Proposal\main.tex
+INPUT d:\desktop\Minor project\Steganalysis Using Ensemble Classifiers\MidTerm\main.tex
 OUTPUT main.log
 INPUT C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
@@ -220,6 +220,12 @@ INPUT Contents\Chapter5.aux
 INPUT .\Contents\Chapter6.aux
 INPUT .\Contents\Chapter6.aux
 INPUT Contents\Chapter6.aux
+INPUT .\Contents\Chapter7.aux
+INPUT .\Contents\Chapter7.aux
+INPUT Contents\Chapter7.aux
+INPUT .\Contents\chapter8.aux
+INPUT .\Contents\chapter8.aux
+INPUT Contents\chapter8.aux
 OUTPUT main.aux
 INPUT C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -441,6 +447,18 @@ OUTPUT Contents\Chapter6.aux
 INPUT .\Contents\Chapter6.tex
 INPUT .\Contents\Chapter6.tex
 INPUT Contents\Chapter6.tex
+INPUT .\Contents\Chapter7.tex
+INPUT .\Contents\Chapter7.tex
+OUTPUT Contents\Chapter7.aux
+INPUT .\Contents\Chapter7.tex
+INPUT .\Contents\Chapter7.tex
+INPUT Contents\Chapter7.tex
+INPUT .\Contents\chapter8.tex
+INPUT .\Contents\chapter8.tex
+OUTPUT Contents\chapter8.aux
+INPUT .\Contents\chapter8.tex
+INPUT .\Contents\chapter8.tex
+INPUT Contents\chapter8.tex
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
@@ -478,6 +496,12 @@ INPUT Contents\Chapter5.aux
 INPUT .\Contents\Chapter6.aux
 INPUT .\Contents\Chapter6.aux
 INPUT Contents\Chapter6.aux
+INPUT .\Contents\Chapter7.aux
+INPUT .\Contents\Chapter7.aux
+INPUT Contents\Chapter7.aux
+INPUT .\Contents\chapter8.aux
+INPUT .\Contents\chapter8.aux
+INPUT Contents\chapter8.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\sachi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
