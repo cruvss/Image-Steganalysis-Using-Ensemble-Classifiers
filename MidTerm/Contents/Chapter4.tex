@@ -83,18 +83,18 @@ The ideal model to use for the aforementioned features is an ensemble classifier
     \Large{\textbf{Model Training Approach}}\\
 \end{flushleft}
 \textbf{Feature Extraction:}\\
-Initial extraction of CC-C300 feature vector JPEG image is to be done. The selection of CC-C300 is based on its high dimensionality and  its detection efficiency.\vspace{0.25cm}\\
+CC-C300, denoting Cardinal Cartesian - Co-occurrence, employs coordinates derived from pixels and DCT values, enhancing precision in pixel classification and co-occurrence analysis. Despite the doubled dimensionality, the approach refines feature selection by utilizing the top 300 features determined through mutual information (MI). Each pixel contributes a DCT value, subsequently truncated by parameter T for efficient co-occurrence matrix computation. The resulting 81-dimensional output for each pixel contributes to an overall dimensionality of 48,600 (2 * 81 * 300). This strategic feature extraction methodology optimizes the representation of pixel relationships, combining the advantages of coordinate-based analysis and MI-based feature selection for robust image characterization.\vspace{0.25cm}\\
 \textbf{Ensemble Classifier Selection:}\\
-The decision to choose ensemble classifiers over deep learning techniques was made due to their superior steganalysis detection efficiency and their need for lesser computational power.\vspace{0.25cm}\\
+The decision for selecting an ensemble classification approach is based on the problem at hand. The bagging approach appears ideal for this classification problem as it effectively addresses issues such as overfitting, prevalent during model training. One of the main focuses of our model is diversity, and bagging achieves this by creating diverse bootstrapped samples, enhancing the accuracy of the classification. Bagging also allows parallelization, significantly reducing training time compared to other models like boosted ensemble classifiers, L-SVM, or G-SVM. The simplicity and instability of bagging contribute to its advantages for ensemble classification.\vspace{0.25cm}\\
 \textbf{Bootstrapping:}\\
-Bootstrapping is the process of splitting a large dataset into its smaller subsets. The gathered CC-C300 feature vectors are to be split  into more manageable subsets. Utilizing these subsets, individual base models are to be trained independently.\vspace{0.25cm}\\
+Bootstrapping is simply the process of randomly dividing the dataset into various parts and feeding them to the number of base learners present inside the ensemble classifier for training. The datasets are divided into various smaller samples and then sent to the base learners for training. This division of datasets removes their dependency on each other, promoting parallelization and allowing the training of various models simultaneously..\vspace{0.25cm}\\
 \textbf{Base Learner Training:}\\
-Based on the extracted features, each base learner independently processes its subset of feature vectors and finalizes a decision.\vspace{0.25cm}\\
+The base learners are fed with the feature "dsub," a subset of "d" where "d" is the total number of features or dimensions of each data. The base learners are trained on Fisher's Linear Discriminant Analysis (FLD), which outputs binary classification. FLD is chosen for its diversity in revealing various errors, increasing the diversity of each base learner and resulting in a more accurate ensemble classifier.\vspace{0.25cm}\\
 \textbf{Aggregation:}\\
-To create an ensemble decision, the choices made by each individual base learner are aggregated and the final decision is to be made by using a voting system which finalizes the result by figuring out the most popular output.\vspace{0.25cm}\\
+The trained model can now successfully classify the input images as cover or steganographically modified images. The binary classifier typically classifies 1 as a steganographically modified image and 0 as a cover image. The chosen voting method is hard voting, which calculates the number of 0s and 1s and outputs the result dominated by the majority. The threshold is set at L/2.
+\vspace{0.25cm}\\
 \textbf{Efficiency Considerations:}\\
-The proposed system prioritizes efficiency by leveraging shallow machine learning techniques, particularly ensemble classifiers instead of deep learning. The choice of CC-C300 as a feature is intentional to increase efficiency and detection capability of the system.\\
-\clearpage 
+The system prioritizes efficiency by embracing shallow machine learning techniques, specifically ensemble classifiers, instead of deep learning approaches. This strategic choice aligns with the computational efficiency goal, ensuring effective steganalysis without the computational demands associated with deep learning architectures. The intentional selection of CC-C300 as a feature further amplifies efficiency and bolsters the system's detection capabilities. This streamlined approach aims to strike a balance between accuracy and efficiency in steganalysis.\\
 
 \section{System Architecture}
 \begin{figure}[H]
@@ -102,3 +102,4 @@ The proposed system prioritizes efficiency by leveraging shallow machine learnin
     \caption{System Architecture}
 \end{figure}
 \clearpage 
+
