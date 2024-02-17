@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  18 FEB 2024 00:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  18 FEB 2024 01:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -788,11 +788,7 @@ Overfull \hbox (0.75774pt too wide) in paragraph at lines 23--23
 
 
 
-] [6]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7] [8]
+] [6] [7]
 Overfull \hbox (0.99232pt too wide) in paragraph at lines 31--31
 []|\OT1/ptm/m/n/12 (-20) S.N.| 
  []
@@ -817,7 +813,7 @@ Overfull \hbox (0.75774pt too wide) in paragraph at lines 35--35
 []|\OT1/ptm/m/n/12 (-20) 2007| 
  []
 
-[9
+[8
 
 ]
 Overfull \hbox (0.99232pt too wide) in paragraph at lines 42--42
@@ -849,14 +845,14 @@ Overfull \hbox (13.62648pt too wide) in paragraph at lines 40--48
 [][] 
  []
 
-) [10
+) [9
 
 ]
 \openout2 = `Contents/Chapter3.aux'.
 
  (Contents/Chapter3.tex
 Chapter 3.
-) [11
+) [10
 
 
 
@@ -866,18 +862,18 @@ Chapter 3.
 
  (Contents/Chapter4.tex
 Chapter 4.
-<./img/agile.png, id=291, 652.4375pt x 382.42876pt>
+<./img/agile.png, id=299, 652.4375pt x 382.42876pt>
 File: ./img/agile.png Graphic file (type png)
 <use ./img/agile.png>
 Package pdftex.def Info: ./img/agile.png  used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 133.42024pt.
-[12
+[11
 
 
 
 
- <./img/agile.png>] [13]
-<./img/ensemble.jpg, id=311, 903.375pt x 474.27188pt>
+ <./img/agile.png>] [12]
+<./img/ensemble.jpg, id=318, 903.375pt x 474.27188pt>
 File: ./img/ensemble.jpg Graphic file (type jpg)
 <use ./img/ensemble.jpg>
 Package pdftex.def Info: ./img/ensemble.jpg  used on input line 32.
@@ -887,54 +883,55 @@ Overfull \hbox (38.4112pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
+[13 <./img/ensemble.jpg>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 38.
-[14 <./img/ensemble.jpg>] [15]
-<./img/model.png, id=328, 1734.48pt x 1233.408pt>
-File: ./img/model.png Graphic file (type png)
-<use ./img/model.png>
-Package pdftex.def Info: ./img/model.png  used on input line 74.
-(pdftex.def)             Requested size: 398.33858pt x 283.26382pt.
- [16
-
- <./img/model.png>] [17
+ [14
 
 ]
-<./img/System architecture.jpg, id=339, 617.9085pt x 443.256pt>
+<./img/model.png, id=337, 1734.48pt x 1233.408pt>
+File: ./img/model.png Graphic file (type png)
+<use ./img/model.png>
+Package pdftex.def Info: ./img/model.png  used on input line 77.
+(pdftex.def)             Requested size: 398.33858pt x 283.26382pt.
+ [15 <./img/model.png>] [16
+
+]
+<./img/System architecture.jpg, id=347, 617.9085pt x 443.256pt>
 File: ./img/System architecture.jpg Graphic file (type jpg)
 <use ./img/System architecture.jpg>
-Package pdftex.def Info: ./img/System architecture.jpg  used on input line 98.
+Package pdftex.def Info: ./img/System architecture.jpg  used on input line 101.
 (pdftex.def)             Requested size: 426.79134pt x 306.15808pt.
 
-Overfull \hbox (9.95845pt too wide) in paragraph at lines 98--99
+Overfull \hbox (9.95845pt too wide) in paragraph at lines 101--102
 [][] 
  []
 
-[18
+[17
 
  <./img/System architecture.jpg>])
 \openout2 = `Contents/Chapter5.aux'.
 
  (Contents/Chapter5.tex
 Chapter 5.
-<./img/gantt_chart.png, id=344, 1697.34125pt x 1029.8475pt>
+<./img/gantt_chart.png, id=352, 1697.34125pt x 1029.8475pt>
 File: ./img/gantt_chart.png Graphic file (type png)
 <use ./img/gantt_chart.png>
 Package pdftex.def Info: ./img/gantt_chart.png  used on input line 4.
 (pdftex.def)             Requested size: 426.79134pt x 258.95409pt.
-[19
+[18
 
 
 
 
 
- <./img/gantt_chart.png>]) [20
+ <./img/gantt_chart.png>]) [19
 
 ]
 \openout2 = `Contents/Chapter6.aux'.
 
  (Contents/Chapter6.tex
 Chapter 6.
-) [21
+) [20
 
 
 
@@ -944,12 +941,12 @@ Chapter 6.
 
  (Contents/Chapter7.tex
 Chapter 7.
-) [22
+[21
 
 
 
 
-]
+]) [22]
 \openout2 = `Contents/chapter8.aux'.
 
  (Contents/chapter8.tex
@@ -974,17 +971,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5DBAF431339CD2DA4E51247C342C70A;3462.
  ) 
 Here is how much of TeX's memory you used:
- 20089 strings out of 475248
- 350551 string characters out of 5757814
- 1942785 words of memory out of 5000000
+ 20084 strings out of 475248
+ 350504 string characters out of 5757814
+ 1941785 words of memory out of 5000000
  40868 multiletter control sequences out of 15000+600000
- 596054 words of font info for 248 fonts, out of 8000000 for 9000
+ 595768 words of font info for 246 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1417b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1377b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (31 pages, 1560429 bytes).
+Output written on main.pdf (31 pages, 1564210 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
  58612 words of extra memory for PDF output out of 61914 (max. 10000000)
 

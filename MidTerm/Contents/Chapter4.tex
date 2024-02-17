@@ -32,7 +32,7 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
     \includegraphics[width=160mm]{./img/ensemble.jpg}
     \caption{Basic outline of Ensemble Classifier}
 \end{figure}
-
+\clearpage
 \subsection{Algorithm}
 \begin{algorithm}
     \caption{Ensemble Classifier Algorithm \cite{5}}
@@ -55,7 +55,7 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
     \State \textbf{return} $B(y)$, $y \in Y^{\text{tst}}$
     \end{algorithmic}
     \end{algorithm}
-    \clearpage 
+ 
     \begin{flushleft}
     In the provided algorithm:\\
     \end{flushleft}
@@ -67,7 +67,10 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
      $y_k, \bar{y}_k \in \mathbb{R}^d, k=1,...,N^{\text{TST}}$: Denote the cover and stego features computed from the testing set.\\
 
 \section{Implementation}
-We start by creating high-dimensional prefeatures that captures various dependencies of the cover elements. We aim to capture as many connections among these elements as we can. For that we will be using CC-C300 model\cite{8} for prefeature extraction. Now, these prefeatures are feeded into an Ensemble based classifier with Fisher Liner Discrimants(FLDs) as the base learners. Random subspace is creating using Bootstrapping and they are given as input to individual base learners. To finalze the final result majority voting is done and final ouput is received. The model is trained several times on IStego100K dataset so that it can predit stego images with high accuracy. 
+CC-C300\cite{8} stands for Cardinal Cartesian - Co-occurrence. As the name suggests, ``Cardinal Cartesian'' refers to the use of coordinates. In this context, pixels and DCT values represent the coordinates. The use of these coordinates helps classify each pixel and its co-occurrence more precisely, but it comes at the cost of doubled dimensionality. The dimensionality is calculated as follows: CC-C300 utilizes the features of the top 300 important features, which are determined using the mutual information (MI) parameter. Each pixel provides a DCT value, further truncated by parameter T for more efficient co-occurrence matrix calculation between two different pixels. Consequently, each pixel results in an 81-dimensional output, and considering the co-occurrence between pixels, the total dimension becomes 2 * 81 * 300, which equals 48,600.
+Due to its high dimensionality and the fact that our target model addresses the curse of Dimensionality (CoD), CC-C300 is the ideal feature to be extracted. Therefore, it is preferable to extract the CC-C300 feature for each .jpeg image out of 200k images. This extraction process should be conducted in batches of 10k for smoother and more efficient feature extraction.\vspace{0.2cm}
+The ideal model to use for the aforementioned features is an ensemble classifier. An ensemble classifier is favored because it focuses more on diversity than accuracy in its base models. A high-accuracy base learner on a specific dataset may be less accurate when compared to a base learner with lower accuracy but a more diverse dataset. The model utilizes random "dsub," which selects random values from the image features during training. Out-of-Bag (OOB) is to be calculated based on the unused dataset while utilizing random bootstrapping.
+
 \begin{figure}[H]
 \section{Block diagram of proposed system}
  \centering

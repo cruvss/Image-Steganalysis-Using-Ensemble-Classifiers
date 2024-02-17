@@ -4,14 +4,16 @@ The initially estimated tasks which were presumed to be completed have been comp
 
 \begin{enumerate}[label=\arabic*.]
     \item \textbf{Dataset Preprocessing:} \\
-    We have effectively preprocessed datasets from the BOSS dataset and IStego100K dataset. This involved primarily focusing on JPEG files, as the datasets were predominantly in the .pgm file type. The preprocessing stage was essential to extract the desired features for our analysis.
+   We have successfully preprocessed the datasets from the IStego100K dataset\cite{7}. This primarily involved focusing on JPEG files, as the datasets were predominantly in the .pgm file type. The preprocessing stage was essential to extract the desired features for our analysis.\\
+   We have divided our large dataset into different batches, with each batch consisting of 10,000 images. For training purposes, we will use one batch at a time. This means that we will be using 10,000 cover images and 10,000 stego images at a time for our training. This approach allows us to manage the large dataset more efficiently and ensures that our model is trained on a representative sample of the data.
     
     \item \textbf{Feature Extraction:} \\
-    For our analysis, the CC-CN features were determined to be the most effective for detecting steganographically modified images. Given the large number of co-occurrence matrices, we decided to focus on the top 300 features (CC-C300). We successfully extracted these features from a dataset comprising 100,000 images.
-    
+    For our analysis, we found that the CC-CN features were the most effective for detecting steganographically modified images. Due to the large number of co-occurrence matrices, we decided to focus on the top 300 features (CC-C300). Up to this point, we have successfully extracted all 200,000 images features. We used a MATLAB code for the extraction process of the images, which extracts the CC-C300 features. The output of that code is saved in an .mat file, which will be further used for training and testing purposes.
+
     \item \textbf{Model Training and Accuracy:} \\
-    We have trained a model using the extracted CC-C300 features, achieving an OOB error of 0.2899 for “universal steganographic detection”. It is worth noting that this model’s accuracy is expected to increase when applied to datasets with specific steganography algorithms.
+    We then inputted the extracted features file into our ensemble model in MATLAB. Up to this point, we have only used 10,000 images in a batch to train the model and assess its performance. Using the extracted CC-C300 features, we trained a model and achieved an OOB error of 0.2899 for ``universal steganographic detection.'' It is important to note that this model's accuracy is expected to improve when applied to datasets with specific steganography algorithms. This is because the model has been trained on a diverse set of images, but the performance may be further optimized by tailoring it to recognize features specific to particular steganographic techniques. 
     
     \item \textbf{Comparative Analysis:} \\
-    Our analysis included training the model using different features. Among these, CC-C300 consistently outperformed other features, further validating our choice.
+    For validation purposes, we extracted the features of the same dataset using three different feature sets: CC-CHEN, LIU, and CC-C300. Upon analysis, we found that the model trained using CC-C300 had the highest accuracy among the three. This underscores the effectiveness of the CC-C300 feature set in accurately detecting steganographically modified images. It is important to note that this validation process further confirms the importance of the chosen feature set and its role in achieving superior results in steganography detection. 
+
 \end{enumerate}
