@@ -14,15 +14,15 @@
 \contentsline {section}{\numberline {4.2}Data Collection}{13}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Ensemble Classifiers}{13}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Algorithm}{14}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Implementation}{15}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Block diagram of proposed system}{15}{section.4.5}%
-\contentsline {section}{\numberline {4.6}System Architecture}{17}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Implementation Plan}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Gantt Chart}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Software Requirement}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Hardware Requirement}{19}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Expected Outcomes}{20}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Works Completed}{21}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Work In Progress}{22}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Bibliography}{23}{chapter.9}%
+\contentsline {section}{\numberline {4.4}Implementation}{16}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Block diagram of proposed system}{16}{section.4.5}%
+\contentsline {section}{\numberline {4.6}System Architecture}{18}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Implementation Plan}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Gantt Chart}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Software Requirement}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Hardware Requirement}{20}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Expected Outcomes}{21}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Works Completed}{22}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Work In Progress}{23}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Bibliography}{24}{chapter.9}%
 \contentsfinish 

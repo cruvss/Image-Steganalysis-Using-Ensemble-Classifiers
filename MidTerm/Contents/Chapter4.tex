@@ -16,21 +16,16 @@ The main reason for which  we choose this development process:
 \item Development period for applications is reduced.
 \end{enumerate}
 \section{Data Collection} 
-We will utilize the IStego100K dataset\cite{7}, a Large-scale open-source image \mbox{steganalysis} dataset. This dataset consits of total 200,000 images, serving as the primary resource for training and testing our model. Within the dataset, images are categorized into two main groups: ``Stego'' and ``Cover,'' each containing 100,000 \mbox{images}. The ``Stego'' subset contains images with hidden information added using three \mbox{different} methods. In contrast, the ``Cover'' subset consists of images without any hidden \mbox{information} added; they are in their original, unaltered state.
-
+We will utilize the IStego100K dataset [7], a Large-scale open-source image steganalysis dataset. This dataset consists of a total of 200,000 images, serving as the primary resource for training and testing our model. Within the dataset, images are categorized into two main groups: ``Stego'' and ``Cover,'' each containing 100,000 images. The ``Stego'' subset contains images with hidden information added using three different methods. In contrast, the ``Cover'' subset consists of images without any hidden information added; they are in their original, unaltered state.\\
+The size of images in the data set is 1024*1024 pixels.Each image in the dataset has randomly assigned quality factors in the range of 75-95. Three well-known steganographic algorithms J-uniward, nsF5, and UERD [8] [6] [7] are randomly selected for embedding in the images. The embedding rate for each image is randomly set in the
+range of 0.1-0.4 bpac.
 \section{Ensemble Classifiers}
 Ensemble classifiers are machine learning techniques that combine multiple individual models, or ``base learners,'' to make predictions. Common ensemble techniques include bagging, boosting, and stacking. The main idea behind the ensemble methodology is to weigh several individual classifiers, and combine them in order to obtain a classifier that outperforms every one of them. A standard ensemble approach used in classification tasks consists of the following fundamental components:
 \begin{enumerate}
-    \item \textbf{Training set:} A labeled dataset used for ensemble training. The training set can be
-    described in a variety of languages. Most frequently, the instances are described as attribute-
-    value vectors.
-    \item \textbf{Base Inducer:} The inducer is an induction algorithm that obtains a training set and
-    forms a classifier that represents the generalized relationship between the input attributes
-    and the target attribute. Decision trees, Neural networks, Support Vector Machines(SVMs), k-Nearest Neighbors(k-NN), Random Forsets, Gradient Boosting Machines(GBMs), (AdaBoost) etc. are different types of base learners that can be used in ensemble methods.
-    \item \textbf{Diversity Generator:} This component is responsible for generating the diverse
-    classifiers.
-    \item \textbf{Combiner:} The combiner is responsible for combining the classifications of the various
-    classifiers. Some of the widely used combination method are: Weighting method, Majority voting, Performance weighting, Distribution summation, Bayesian combinaiton, Dempster-Shafter, Vogging, Naive bayes.\cite{21} 
+    \item \textbf{Training set:} A labeled dataset is used for ensemble training. The instances of the dataset are described as attribute-value vectors. This set is crucial as it serves as the foundation for training the ensemble model, providing the necessary data points and their corresponding labels. In other words, it's the collection of data points used to train an ensemble learning algorithm. Each data point in the training set consists of two parts: the features (or attributes) and the label (or output). The features are the input variables used to predict the label, and the label is the output variable we want to predict.
+    \item \textbf{Base Inducer:} The inducer is an induction algorithm that obtains a training set and forms a classifier that represents the generalized relationship between the input attributes and the target attribute. Decision trees, Neural networks, Support Vector Machines(SVMs), k-Nearest Neighbors(k-NN), Random Forsets, Gradient Boosting Machines(GBMs), (AdaBoost) etc. are different types of base learners that can be used in ensemble methods. The choice of base learner plays a vital role in the ensemble's performance and is often selected based on the nature of the problem and the characteristics of the data.
+    \item \textbf{Diversity Generator:}This component is responsible for generating the diverse classifiers. Diversity among the classifiers is crucial as it helps improve the ensemble's performance by ensuring that the individual models provide different perspectives on the data. Techniques such as bagging, boosting, and randomization can be used to generate diverse classifiers.
+    \item \textbf{Combiner:} The combiner is responsible for combining the classifications of the various classifiers. Some of the widely used combination methods are Weighting method, Majority voting, Performance weighting, Distribution summation, Bayesian combination, Dempster-Shafter, Vogging, Naive bayes. The choice of combination method depends on the nature of the problem and the characteristics of the data. The combiner's role is to aggregate the predictions of the individual models to produce the final ensemble prediction, which often leads to improved overall performance compared to using a single model.\cite{21} 
 \end{enumerate}
 \begin{figure}[H]
     \centering
