@@ -40,7 +40,7 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
 
 \subsection{Algorithm}
 \begin{algorithm}
-    \caption{Ensemble Classifier Algorithm}
+    \caption{Ensemble Classifier Algorithm\cite{5}}
     \begin{algorithmic}[1]
     \For{$l=1$ to $L$}
         \State Form a random subspace
@@ -69,7 +69,7 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
      $N^{\text{TRN}}$ and $N^{\text{TST}}$: Denote the number of training and testing examples, respectively.\\
      $L$: Represents the number of base learners.\\
      $x_m, \bar{x}_m \in \mathbb{R}^d, m=1,...,N^{\text{TRN}}$: Refer to the cover and stego features computed from the training set.\\
-     $y_k, \bar{y}_k \in \mathbb{R}^d, k=1,...,N^{\text{TST}}$: Denote the cover and stego features computed from the testing set.\cite{5}\\
+     $y_k, \bar{y}_k \in \mathbb{R}^d, k=1,...,N^{\text{TST}}$: Denote the cover and stego features computed from the testing set.
 
 \section{Implementation}
 We start by creating high-dimensional prefeatures that captures various dependencies of the cover elements. We aim to capture as many connections among these elements as we can. For that we will be using CC-C300 model\cite{8} for prefeature extraction. Now, these prefeatures are feeded into an Ensemble based classifier with Fisher Liner Discrimants(FLDs) as the base learners. Random subspace is creating using Bootstrapping and they are given as input to individual base learners. To finalze the final result majority voting is done and final ouput is received. The model is trained several times on IStego100K dataset so that it can predit stego images with high accuracy. 
