@@ -5,24 +5,25 @@
 \contentsline {chapter}{List of Abbreviation}{v}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Problem Statement}{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objectives}{4}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Feasibility study}{10}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Methodology}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Software Development Approach}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Data Collection}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ensemble Classifiers}{12}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Algorithm}{14}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Implementation}{14}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Block diagram of proposed system}{15}{section.4.5}%
-\contentsline {section}{\numberline {4.6}System Architecture}{17}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Implementation Plan}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Gantt Chart}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Software Requirement}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Hardware Requirement}{19}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Expected Outcomes}{20}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Works Completed}{21}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Work In Progress}{23}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Bibliography}{24}{chapter.9}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Feasibility study}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Methodology}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Software Development Approach}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Data Collection}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ensemble Classifiers}{11}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Algorithm}{12}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Implementation}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Block diagram of proposed system}{14}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Model Training Approach}{15}{section.4.6}%
+\contentsline {section}{\numberline {4.7}System Architecture}{16}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Implementation Plan}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Gantt Chart}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Software Requirement}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Hardware Requirement}{18}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Expected Outcomes}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Works Completed}{20}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Work In Progress}{22}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Bibliography}{23}{chapter.9}%
 \contentsfinish 

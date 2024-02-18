@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt]{report}
+\documentclass[12pt,a4paper]{report}
 \usepackage[top=1in,bottom=1in,left=1.5in,right=1in,headheight=0.5in,headsep=0.5in]{geometry}
 \usepackage[utf8]{inputenc}                        % encoding document in uft 8
 \usepackage{graphicx}                              % package for insertion of external images and other graphics formatting 
@@ -20,7 +20,11 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{microtype}
+\usepackage{titlesec}
 
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-20pt}{10pt}
 
 \begin{document}
 \include{Contents/coverpage}

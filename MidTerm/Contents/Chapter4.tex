@@ -32,7 +32,7 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
     \includegraphics[width=160mm]{./img/ensemble.jpg}
     \caption{Basic outline of Ensemble Classifier}
 \end{figure}
-\clearpage
+
 \subsection{Algorithm}
 \begin{algorithm}
     \caption{Ensemble Classifier Algorithm \cite{5}}
@@ -55,7 +55,7 @@ Ensemble classifiers are machine learning techniques that combine multiple indiv
     \State \textbf{return} $B(y)$, $y \in Y^{\text{tst}}$
     \end{algorithmic}
     \end{algorithm}
- 
+    \clearpage
     \begin{flushleft}
     In the provided algorithm:\\
     \end{flushleft}
@@ -79,9 +79,10 @@ The ideal model to use for the aforementioned features is an ensemble classifier
 \end{figure}
 \clearpage
 
-\begin{flushleft}
-    \Large{\textbf{Model Training Approach}}\\
-\end{flushleft}
+% \begin{flushleft}
+%     \Large{\textbf{Model Training Approach}}\\
+% \end{flushleft}
+\section{Model Training Approach}
 \textbf{Feature Extraction:}\\
 CC-C300, denoting Cardinal Cartesian - Co-occurrence, employs coordinates derived from pixels and DCT values, enhancing precision in pixel classification and co-occurrence analysis. Despite the doubled dimensionality, the approach refines feature selection by utilizing the top 300 features determined through mutual information (MI). Each pixel contributes a DCT value, subsequently truncated by parameter T for efficient co-occurrence matrix computation. The resulting 81-dimensional output for each pixel contributes to an overall dimensionality of 48,600 (2 * 81 * 300). This strategic feature extraction methodology optimizes the representation of pixel relationships, combining the advantages of coordinate-based analysis and MI-based feature selection for robust image characterization.\vspace{0.25cm}\\
 \textbf{Ensemble Classifier Selection:}\\
