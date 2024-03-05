@@ -21,6 +21,10 @@
 \usepackage{algpseudocode}
 \usepackage{microtype}
 \usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{sectsty}
+\usepackage{multicol}
+
 
 \titleformat{\chapter}[display]
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
@@ -38,7 +42,9 @@
 \listoffigures
 \listoftables
 \clearpage
-\addcontentsline{toc}{chapter}{List of Abbreviation}
+%\addcontentsline{toc}{chapter}{List of Abbreviation}
+%\addcontentsline{toc}{chapter}{certificate}
+\include{Contents/certificate}
 \include{Contents/Abbreviation}
 \include{Contents/Chapter1}
 \include{Contents/Chapter2}

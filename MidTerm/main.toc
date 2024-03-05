@@ -2,7 +2,8 @@
 \contentsline {chapter}{Abstract}{i}{chapter*.2}%
 \contentsline {chapter}{List of Figures}{iii}{chapter*.4}%
 \contentsline {chapter}{List of Tables}{iv}{chapter*.5}%
-\contentsline {chapter}{List of Abbreviation}{v}{chapter*.5}%
+\contentsline {chapter}{Certificate of Approval}{v}{chapter*.6}%
+\contentsline {chapter}{List of Abbreviation}{vi}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
