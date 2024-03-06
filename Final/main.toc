@@ -1,5 +1,4 @@
 \babel@toc {british}{}\relax 
-\contentsline {chapter}{Certificate of Approval}{i}{chapter*.2}%
 \contentsline {chapter}{Copyright}{ii}{chapter*.2}%
 \contentsline {chapter}{Acknowledgement}{iii}{chapter*.4}%
 \contentsline {chapter}{Abstract}{iv}{chapter*.5}%
