@@ -1,4 +1,5 @@
 \babel@toc {british}{}\relax 
+\contentsline {chapter}{Certificate of Approval}{i}{figure.caption.1}%
 \contentsline {chapter}{Copyright}{ii}{chapter*.2}%
 \contentsline {chapter}{Acknowledgement}{iii}{chapter*.4}%
 \contentsline {chapter}{Abstract}{iv}{chapter*.5}%
@@ -31,14 +32,20 @@
 \contentsline {chapter}{\numberline {6}Methodology}{18}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Software Development Approach}{18}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Data Collection}{18}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Feature extraction}{19}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Ensemble Classifiers}{21}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Algorithm}{24}{subsection.6.4.1}%
-\contentsline {section}{\numberline {6.5}Model Training Approach}{25}{section.6.5}%
-\contentsline {section}{\numberline {6.6}FLD as Base Learner}{26}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}FLD algorithm for Image steganalysis}{26}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Mathematics}{27}{subsection.6.6.2}%
-\contentsline {chapter}{\numberline {7}Expected Outcomes}{28}{chapter.7}%
-\contentsline {chapter}{Appendix}{29}{chapter*.27}%
-\contentsline {chapter}{\numberline {8}Bibliography}{32}{chapter.8}%
+\contentsline {section}{\numberline {6.3}Pre-feature Space}{19}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Feature extraction}{19}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}JPEG Coefficient Analysis}{19}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Truncation}{20}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}.}{20}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Ensemble Classifiers}{21}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Algorithm}{25}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}Model Training Approach}{26}{section.6.6}%
+\contentsline {section}{\numberline {6.7}FLD as Base Learner}{27}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}FLD algorithm for Image steganalysis}{27}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Mathematics}{28}{subsection.6.7.2}%
+\contentsline {chapter}{\numberline {7}Outcomes}{29}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Enhancements}{31}{chapter.8}%
+\contentsline {chapter}{Conclusion}{31}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Bibliography}{32}{chapter.9}%
+\contentsline {chapter}{Appendix}{34}{chapter*.26}%
 \contentsfinish 

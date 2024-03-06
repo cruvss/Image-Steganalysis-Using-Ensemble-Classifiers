@@ -16,12 +16,16 @@ The main reason for which  we choose this development process:
 \item Development period for applications is reduced.
 \end{enumerate}
 \section{Data Collection} 
-We have collected dataset from the IStego100K dataset [7], a Large-scale open-source image steganalysis dataset. This dataset consists of a total of 200,000 images, serving as the primary resource for training and testing our model. Within the dataset, images are categorized into two main groups: ``Stego'' and ``Cover,'' each containing 100,000 images. The ``Stego'' subset contains images with hidden information added using three different methods. As this dataset contains images with message hidden using more than one algorithm so we can call this univerasal datset for steganlaysis. In contrast, the ``Cover'' subset consists of images without any hidden information added; they are in their original, unaltered state.\\
-The size of images in the data set is 1024*1024 pixels in RGB format. Each image in the dataset has randomly assigned quality factors in the range of 75-95. Three well-known steganographic algorithms J-uniward, nsF5, and UERD [8] [6] [7] are randomly selected for embedding in the images. The payload for each image is randomly set in the range of 0.1-0.4 bpac. [0.10 bpac means that for every  cofficient in the DCT domain of the cover image, 0.10 bits of secret data are hidden on average.]
+We have gathered data from the IStego100K dataset\cite{7}, a comprehensive collection of images for steganalysis research. The training images in IStego100K were collected from Unsplash\footnote{\url{https://unsplash.com/}}, a copyright free photography website. This dataset consits 200,000 JPEG images, divided into two main categories: "Stego" and "Cover," each containing 100,000 images. The "Stego" subset consists of images where the original cover images from the dataset have been modified to hide information. Each steganographic image is randomly steganized with three widely used image steganography algorithms (J-uniward\cite{22} ,NSF5\cite{17} and UERD\cite{13}) with a random embedding rate (0.1-0.4bpac). This diversity makes the dataset particularly valuable for developing models capable of detecting hidden data across various embedding techniques and makes dataset universal. Conversely, the "Cover" subset consists of unaltered images, serving as the baseline for comparison.\\
+The images in the dataset are standardized to 1024x1024 pixels in RGB format, with each image assigned random quality factors ranging from 75 to 95. Additionally, the payload for embedding is randomly distributed within the range of 0.1 to 0.4 bits per coefficient (bpac).[0.10 bpac means that for every  cofficient in the DCT domain of the cover image, 0.10 bits of secret data are hidden on average.]\\
+There are alternative datasets for steganalysis, such as BOSSbase 1.01 and BURSTbase. However, these datasets utilize images in .pgm format and we felt difficult to work with images in .pgm formatt. We preferred for the IStego100K dataset due to its utilization of .jpg format. Additionally, while the former datasets employ a single steganographic algorithm for embedding information, IStego100K employs three different algorithms, enhancing its diversity and utility for research purposes. Downloading the IStego100K dataset was much easier because it was available on Google Drive, whereas the other datasets were harder to find and access. Additionally, the information provided about the IStego100K dataset was clearer compared to the limited details available for the other datasets. Another advantage of IStego100K is that it's newer, which suggests it might be more up-to-date and relevant for current research compared to the older datasets. 
 
+
+\section{Pre-feature Space}
+The pre feature space is the space before the feature extraction process which involves various processes such as normalization, noise reduction or other process to enhance the quality of the data before feature extraction.
+The images was changed or modified as necessary in order to prepare them for feature extraction process. The feature extraction process we were to perform was CC-C300 which took features from only on channel from the RGB so, to ensure that all the information from image is considered we turned the colored image into gray scaled image which lets go off all its other information and holds most or all of its information in the luminance channel.
 \section{Feature extraction}
-
-\subsection*{JPEG Coefficient Analysis}
+\subsection{JPEG Coefficient Analysis}
 In the initial step, the JPEG coefficients for each $8 \times 8$ block are computed, denoted as $D(i,j)(k,l)$, representing the $(k, l)$ coefficient in the $i, j$ block. Here, $k, l = 0, 1, 2, ...7$, $i = 1, 2, 3, ..., 8(M/8)$, and $j = 1, 2, 3, ..., 8(N/8)$, with $M \times N$ as image dimensions. Subsequently, the coefficients undergo truncation to simplify complexity, ensuring the quantized DCT or JPEG coefficients are centered around 0.
 
 The distribution of the differences between JPEG coefficients exhibits a Laplacian-like pattern, with most values close to zero. Truncation is applied to all available JPEG coefficients, expressed as $D(i,j)(k,l) \leftarrow \text{trunc}_T(D(i,j)(k,l))$, where $\text{trunc}_T(x) = x$ for $x \in [-T, T]$.
@@ -34,7 +38,7 @@ Following truncation, the values are processed to form pairs, and a co-occurrenc
     Cst = \frac{1}{N^{(i)}N^{(j)}} \sum_{i=1}^{N^{(i)}} \sum_{j=1}^{N^{(j)}} \left[ a, b \right] \in P (\Delta i, \Delta j, k1, l1, k2, l2) | a = s, b = t
 \]
 
-\subsection*{Truncation}
+\subsection{Truncation}
 The co-occurrence matrix is calculated between each pair as depicted in img 2. The truncation process yields a transition probability matrix with a dimensionality of $(2T + 1) \times (2T + 1)$. When the threshold value ($T$) is set to 1, considering elements within the range $\{-1, 0, 1\}$, it results in a transition probability matrix with a dimensionality of $3 \times 3$.
 
 Let's denote the states as -1, 0, and 1, and assume a hypothetical transition probability matrix $P$:
@@ -56,7 +60,7 @@ The truncation value $T$ is set to 4, resulting in a co-occurrence matrix of dim
 
 Initially, all possible DCT mode pairs are sorted based on their importance, and co-occurrences are then formed from the most important to the least important ones. As a measure of importance, mutual information (MI) is computed over a sufficiently large set of randomly selected DCT coefficient pairs from those two modes, using the \texttt{mutual\_info\_score(mode1, mode2)} where \texttt{mode1} and \texttt{mode2} are selected randomly.
 
-\subsection*{Feature Set Creation}
+\subsection.{Feature Set Creation}
 
 The top $N$ concatenated co-occurrence matrices, denoted as $CN$, yield a dimension of $N \times 81$. After Cartesian calibration, the dimensionality of what we denote as $CC-CN$ doubles to $2 \times N \times 81$. Choosing $N$ as 300, we have $CC-C300$ with a dimensionality of $2 \times 300 \times 81 = 48,600$ for each image, irrespective of image dimensionality.
 
@@ -117,7 +121,7 @@ A standard ensemble approach used in classification tasks consists of the follow
 \end{enumerate}
 
 \subsection{Algorithm}
-\begin{algorithm}
+\begin{algorithm}[H]
     \caption{Ensemble Classifier Algorithm \cite{5}}
     \begin{algorithmic}[1]
     \For{$l=1$ to $L$}

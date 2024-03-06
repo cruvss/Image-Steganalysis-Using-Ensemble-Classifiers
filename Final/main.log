@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  6 MAR 2024 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  6 MAR 2024 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -639,7 +639,7 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 33.
  (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (main.aux (Contents/coverpage.aux) (Contents/certificate.aux) (Contents/copyright.aux) (Contents/Acknowlegement.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter55.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Appendix.aux))
+) (main.aux (Contents/coverpage.aux) (Contents/certificate.aux) (Contents/copyright.aux) (Contents/Acknowlegement.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter55.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/conclusion.aux) (Contents/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -745,7 +745,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 \openout2 = `Contents/coverpage.aux'.
 
  (Contents/coverpage.tex
-<img/Khwopalogo.jpg, id=171, 101.178pt x 101.178pt>
+<img/Khwopalogo.jpg, id=198, 101.178pt x 101.178pt>
 File: img/Khwopalogo.jpg Graphic file (type jpg)
 <use img/Khwopalogo.jpg>
 Package pdftex.def Info: img/Khwopalogo.jpg  used on input line 12.
@@ -927,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  (Contents/Chapter1.tex
 Chapter 1.
-<./img/compression.png, id=298, 1384.42218pt x 150.5625pt>
+<./img/compression.png, id=331, 1384.42218pt x 150.5625pt>
 File: ./img/compression.png Graphic file (type png)
 <use ./img/compression.png>
 Package pdftex.def Info: ./img/compression.png  used on input line 10.
@@ -1070,7 +1070,7 @@ Chapter 3.
 
  (Contents/Chapter4.tex
 Chapter 4.
-<./img/gantt_chart.png, id=437, 1697.34125pt x 1029.8475pt>
+<./img/gantt_chart.png, id=470, 1697.34125pt x 1029.8475pt>
 File: ./img/gantt_chart.png Graphic file (type png)
 <use ./img/gantt_chart.png>
 Package pdftex.def Info: ./img/gantt_chart.png  used on input line 20.
@@ -1090,12 +1090,12 @@ Overfull \hbox (9.95845pt too wide) in paragraph at lines 20--21
 
  (Contents/Chapter55.tex
 Chapter 5.
-<./img/useCase.png, id=447, 1361.085pt x 1147.28625pt>
+<./img/useCase.png, id=480, 1361.085pt x 1147.28625pt>
 File: ./img/useCase.png Graphic file (type png)
 <use ./img/useCase.png>
 Package pdftex.def Info: ./img/useCase.png  used on input line 5.
 (pdftex.def)             Requested size: 341.43306pt x 287.8012pt.
-<./img/sequenceDiagram.png, id=448, 1493.58pt x 797.98125pt>
+<./img/sequenceDiagram.png, id=481, 1493.58pt x 797.98125pt>
 File: ./img/sequenceDiagram.png Graphic file (type png)
 <use ./img/sequenceDiagram.png>
 Package pdftex.def Info: ./img/sequenceDiagram.png  used on input line 11.
@@ -1106,7 +1106,7 @@ Package pdftex.def Info: ./img/sequenceDiagram.png  used on input line 11.
 
 
  <./img/useCase.png>]
-<./img/blockDiagram.png, id=454, 1966.34625pt x 2472.23625pt>
+<./img/blockDiagram.png, id=487, 1966.34625pt x 2472.23625pt>
 File: ./img/blockDiagram.png Graphic file (type png)
 <use ./img/blockDiagram.png>
 Package pdftex.def Info: ./img/blockDiagram.png  used on input line 17.
@@ -1117,7 +1117,7 @@ Overfull \hbox (38.4112pt too wide) in paragraph at lines 17--18
  []
 
 [15 <./img/sequenceDiagram.png>]
-<./img/architecture.png, id=461, 1547.7825pt x 776.9025pt>
+<./img/architecture.png, id=494, 1547.7825pt x 776.9025pt>
 File: ./img/architecture.png Graphic file (type png)
 <use ./img/architecture.png>
 Package pdftex.def Info: ./img/architecture.png  used on input line 22.
@@ -1132,135 +1132,154 @@ Overfull \hbox (38.4112pt too wide) in paragraph at lines 22--23
 
  (Contents/Chapter5.tex
 Chapter 6.
-<./img/agile.png, id=472, 652.4375pt x 382.42876pt>
+<./img/agile.png, id=505, 652.4375pt x 382.42876pt>
 File: ./img/agile.png Graphic file (type png)
 <use ./img/agile.png>
 Package pdftex.def Info: ./img/agile.png  used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 133.42024pt.
-[18
-
-
-
-
- <./img/agile.png>] [19]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 57.
- (C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 19.
+(C:\Users\sachi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<./img/feature_extraction.png, id=491, 2339.74126pt x 1352.05125pt>
+ [18
+
+
+
+
+ <./img/agile.png>] [19] [20]
+<./img/feature_extraction.png, id=534, 2339.74126pt x 1352.05125pt>
 File: ./img/feature_extraction.png Graphic file (type png)
 <use ./img/feature_extraction.png>
-Package pdftex.def Info: ./img/feature_extraction.png  used on input line 81.
+Package pdftex.def Info: ./img/feature_extraction.png  used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 246.61836pt.
 
-Overfull \hbox (9.95845pt too wide) in paragraph at lines 81--82
+Overfull \hbox (9.95845pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
-[20]
-<./img/bagging.jpg, id=498, 657.05475pt x 331.83975pt>
+[21 <./img/feature_extraction.png>]
+<./img/bagging.jpg, id=541, 657.05475pt x 331.83975pt>
 File: ./img/bagging.jpg Graphic file (type jpg)
 <use ./img/bagging.jpg>
-Package pdftex.def Info: ./img/bagging.jpg  used on input line 92.
+Package pdftex.def Info: ./img/bagging.jpg  used on input line 96.
 (pdftex.def)             Requested size: 341.43306pt x 172.44121pt.
- [21 <./img/feature_extraction.png>]
-<./img/boosting.png, id=505, 603.4545pt x 354.123pt>
+<./img/boosting.png, id=542, 603.4545pt x 354.123pt>
 File: ./img/boosting.png Graphic file (type png)
 <use ./img/boosting.png>
-Package pdftex.def Info: ./img/boosting.png  used on input line 99.
+Package pdftex.def Info: ./img/boosting.png  used on input line 103.
 (pdftex.def)             Requested size: 341.43306pt x 200.36624pt.
-<./img/Stacking.png, id=506, 627.5445pt x 286.671pt>
+ [22 <./img/bagging.jpg>]
+<./img/Stacking.png, id=547, 627.5445pt x 286.671pt>
 File: ./img/Stacking.png Graphic file (type png)
 <use ./img/Stacking.png>
-Package pdftex.def Info: ./img/Stacking.png  used on input line 106.
+Package pdftex.def Info: ./img/Stacking.png  used on input line 110.
 (pdftex.def)             Requested size: 341.43306pt x 155.97232pt.
- [22 <./img/bagging.jpg> <./img/boosting.png>] [23 <./img/Stacking.png>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 121.
- [24] [25
+ [23 <./img/boosting.png> <./img/Stacking.png>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 125.
+ [24] [25] [26
 
-] [26
+] [27
 
-] [27])
+] [28])
 \openout2 = `Contents/Chapter6.aux'.
 
  (Contents/Chapter6.tex
 Chapter 7.
-) [28
+<./img/roc4.jpg, id=593, 702.625pt x 526.96875pt>
+File: ./img/roc4.jpg Graphic file (type jpg)
+<use ./img/roc4.jpg>
+Package pdftex.def Info: ./img/roc4.jpg  used on input line 11.
+(pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
+<./img/optimal4.jpg, id=594, 702.625pt x 526.96875pt>
+File: ./img/optimal4.jpg Graphic file (type jpg)
+<use ./img/optimal4.jpg>
+Package pdftex.def Info: ./img/optimal4.jpg  used on input line 16.
+(pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
+[29
 
 
 
 
 
-]
-\openout2 = `Contents/Appendix.aux'.
+ <./img/roc4.jpg>]) [30 <./img/optimal4.jpg>]
+\openout2 = `Contents/conclusion.aux'.
 
- (Contents/Appendix.tex
-<./img/HomePage.png, id=556, 607.51968pt x 484.81125pt>
-File: ./img/HomePage.png Graphic file (type png)
-<use ./img/HomePage.png>
-Package pdftex.def Info: ./img/HomePage.png  used on input line 9.
-(pdftex.def)             Requested size: 398.33858pt x 317.89027pt.
- [29
-
-
-
-
- <./img/HomePage.png>]
-<./img/choose.png, id=563, 868.74562pt x 569.12625pt>
-File: ./img/choose.png Graphic file (type png)
-<use ./img/choose.png>
-Package pdftex.def Info: ./img/choose.png  used on input line 16.
-(pdftex.def)             Requested size: 398.33858pt x 260.9589pt.
-<./img/selectsample.png, id=564, 906.38625pt x 487.06969pt>
-File: ./img/selectsample.png Graphic file (type png)
-<use ./img/selectsample.png>
-Package pdftex.def Info: ./img/selectsample.png  used on input line 22.
-(pdftex.def)             Requested size: 398.33858pt x 214.05862pt.
- [30
-
- <./img/choose.png> <./img/selectsample.png>]
-<./img/resultGrayCover.png, id=573, 857.45343pt x 561.59813pt>
-File: ./img/resultGrayCover.png Graphic file (type png)
-<use ./img/resultGrayCover.png>
-Package pdftex.def Info: ./img/resultGrayCover.png  used on input line 29.
-(pdftex.def)             Requested size: 398.33858pt x 260.89192pt.
-<./img/resultGrayStego.png, id=574, 856.70062pt x 570.63188pt>
-File: ./img/resultGrayStego.png Graphic file (type png)
-<use ./img/resultGrayStego.png>
-Package pdftex.def Info: ./img/resultGrayStego.png  used on input line 34.
-(pdftex.def)             Requested size: 398.33858pt x 265.32367pt.
-) [31
-
- <./img/resultGrayCover.png> <./img/resultGrayStego.png>] (main.bbl
+ (Contents/conclusion.tex
 Chapter 8.
+[31
+
+
+
+
+]) (main.bbl
+Chapter 9.
 [32
 
 
 
-]) [33] (main.aux (Contents/coverpage.aux) (Contents/certificate.aux) (Contents/copyright.aux) (Contents/Acknowlegement.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter55.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/Appendix.aux))
+
+]) [33]
+\openout2 = `Contents/Appendix.aux'.
+
+ (Contents/Appendix.tex
+<./img/HomePage.png, id=618, 607.51968pt x 484.81125pt>
+File: ./img/HomePage.png Graphic file (type png)
+<use ./img/HomePage.png>
+Package pdftex.def Info: ./img/HomePage.png  used on input line 9.
+(pdftex.def)             Requested size: 398.33858pt x 317.89027pt.
+ [34
+
+
+ <./img/HomePage.png>]
+<./img/choose.png, id=625, 868.74562pt x 569.12625pt>
+File: ./img/choose.png Graphic file (type png)
+<use ./img/choose.png>
+Package pdftex.def Info: ./img/choose.png  used on input line 16.
+(pdftex.def)             Requested size: 398.33858pt x 260.9589pt.
+<./img/selectsample.png, id=626, 906.38625pt x 487.06969pt>
+File: ./img/selectsample.png Graphic file (type png)
+<use ./img/selectsample.png>
+Package pdftex.def Info: ./img/selectsample.png  used on input line 22.
+(pdftex.def)             Requested size: 398.33858pt x 214.05862pt.
+ [35
+
+ <./img/choose.png> <./img/selectsample.png>]
+<./img/resultGrayCover.png, id=635, 857.45343pt x 561.59813pt>
+File: ./img/resultGrayCover.png Graphic file (type png)
+<use ./img/resultGrayCover.png>
+Package pdftex.def Info: ./img/resultGrayCover.png  used on input line 29.
+(pdftex.def)             Requested size: 398.33858pt x 260.89192pt.
+<./img/resultGrayStego.png, id=636, 856.70062pt x 570.63188pt>
+File: ./img/resultGrayStego.png Graphic file (type png)
+<use ./img/resultGrayStego.png>
+Package pdftex.def Info: ./img/resultGrayStego.png  used on input line 34.
+(pdftex.def)             Requested size: 398.33858pt x 265.32367pt.
+) [36
+
+ <./img/resultGrayCover.png> <./img/resultGrayStego.png>] (main.aux (Contents/coverpage.aux) (Contents/certificate.aux) (Contents/copyright.aux) (Contents/Acknowlegement.aux) (Contents/abstract.aux) (Contents/Abbreviation.aux) (Contents/Chapter1.aux) (Contents/Chapter2.aux) (Contents/Chapter3.aux) (Contents/Chapter4.aux) (Contents/Chapter55.aux) (Contents/Chapter5.aux) (Contents/Chapter6.aux) (Contents/conclusion.aux) (Contents/Appendix.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 47549BFBE79B1421401247CDA4A84086;5965.
+(rerunfilecheck)             Checksum: 8129196660391D92755981C77405FC87;6921.
  ) 
 Here is how much of TeX's memory you used:
- 21287 strings out of 475248
- 375186 string characters out of 5757814
+ 21365 strings out of 475248
+ 377081 string characters out of 5757814
  1941785 words of memory out of 5000000
- 41950 multiletter control sequences out of 15000+600000
- 598070 words of font info for 260 fonts, out of 8000000 for 9000
+ 42001 multiletter control sequences out of 15000+600000
+ 601053 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1346b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1499b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (43 pages, 2289113 bytes).
+Output written on main.pdf (46 pages, 2376415 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
- 61350 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
+ 66536 words of extra memory for PDF output out of 74296 (max. 10000000)
 
