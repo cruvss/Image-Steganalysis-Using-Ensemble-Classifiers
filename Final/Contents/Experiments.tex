@@ -1,0 +1,19 @@
+\chapter{Experiments}
+EXPERIMENTS 
+we initially utilized (DCTR) features  with a feature dimensionality of only 8000 for training our model. However, we encountered several drawbacks: the feature extraction process was time-consuming, and the results were not satisfactory.\\
+
+Subsequently, we discovered cc-cN features, particularly cc-c300, which offered a higher dimensionality of 48600. This feature set effectively captured dependencies among individual cover elements. Given the large dimensionality of our images, we employed Fisher's Linear Discriminant (FLD) as the base learner of our ensemble classifier. The output yielded better results compared to our previous attempts.\\
+
+We further explored the cc-chen feature extraction method, which had a dimensionality of 972. However, the results were inferior to those obtained using cc-c300 features. Hence, we concluded that cc-c300 features were the most suitable for our project.\\
+
+In assessing classification methods, we experimented with using a Random Forest ensemble classifier in Python. The model's performance and accuracy closely matched those obtained using MATLAB.\\
+
+The decision between MATLAB and Python as our primary platform was influenced by the availability of feature extraction tools. Since our feature extraction process was exclusive to MATLAB, we opted for it. Although it's possible to call MATLAB functions from Python, limitations such as version compatibility and slower execution using MATLAB Engine prompted us to stick with MATLAB for feature extraction.\\
+TO call matlab from python it requires matlabengine. matlabengine is bla bla matlab ko version anusar python ko version vary garna parcha........ \\
+
+For creating a demo, we investigated using MATLAB as a backend. It was possible but again it rquired matlabengine. so we used matlab app designer for the UI. mmatlab app designer is bla bla bla
+k chutyo?
+about matlab Engine
+about matlab app designer
+why matlab engine not used---------> slower
+why matlab app designer used-----------> backend ma matlab engine use hune vayera 
