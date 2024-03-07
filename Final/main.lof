@@ -29,7 +29,7 @@
 \contentsline {figure}{\numberline {7.11}{\ignorespaces ROC curve and OOB vs No of base learner[dsub=2600]}}{36}{figure.caption.36}%
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Histogram and Confusion Matrix [dsub=2600]}}{36}{figure.caption.37}%
 \contentsline {figure}{\numberline {7.13}{\ignorespaces ROC Curve}}{38}{figure.caption.39}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces OOB Vs Number of Base Learners}}{39}{figure.caption.40}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces OOB vs Number of Base Learners}}{39}{figure.caption.40}%
 \contentsline {figure}{\numberline {7.15}{\ignorespaces Histogram of votes}}{41}{figure.caption.43}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -39,7 +39,7 @@
 \contentsline {figure}{\numberline {A-3}{\ignorespaces Image Selection}}{49}{figure.caption.49}%
 \contentsline {figure}{\numberline {A-4}{\ignorespaces Result}}{50}{figure.caption.50}%
 \contentsline {figure}{\numberline {A-5}{\ignorespaces Result}}{50}{figure.caption.51}%
-\contentsline {figure}{\numberline {A-6}{\ignorespaces Feature Extraction Screenshot}}{51}{figure.caption.52}%
-\contentsline {figure}{\numberline {A-7}{\ignorespaces Model Training Screenshot}}{51}{figure.caption.53}%
-\contentsline {figure}{\numberline {A-8}{\ignorespaces Splitting Dataset using PowerShell Script}}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {A-6}{\ignorespaces Splitting Dataset using PowerShell Script}}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {A-7}{\ignorespaces Feature Extraction Screenshot}}{51}{figure.caption.53}%
+\contentsline {figure}{\numberline {A-8}{\ignorespaces Model Training Screenshot}}{52}{figure.caption.54}%
 \contentsfinish 

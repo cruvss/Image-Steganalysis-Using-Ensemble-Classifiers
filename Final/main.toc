@@ -3,12 +3,13 @@
 \contentsline {chapter}{Copyright}{ii}{chapter*.3}%
 \contentsline {chapter}{Acknowledgement}{iii}{chapter*.5}%
 \contentsline {chapter}{Abstract}{iv}{chapter*.6}%
+\contentsline {chapter}{Table of Contents}{v}{chapter*.6}%
 \contentsline {chapter}{List of Figures}{vii}{chapter*.8}%
 \contentsline {chapter}{List of Tables}{viii}{chapter*.9}%
 \contentsline {chapter}{List of Abbreviation}{ix}{chapter*.10}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Comparison of DCT coefficients of Cover and Stego Image}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Comparison of DCT coefficients of cover and stego image}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Motivation}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Problem Statement}{5}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Objectives}{5}{section.1.5}%
@@ -50,11 +51,11 @@
 \contentsline {subsection}{\numberline {7.2.2}CC-CN Feature}{32}{subsection.7.2.2}%
 \contentsline {subsection}{\numberline {7.2.3}CC-CHEN Feature}{33}{subsection.7.2.3}%
 \contentsline {section}{\numberline {7.3}Changing different parameters}{34}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Comparison between MATLAB and Python}{37}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Discussion}{37}{section.7.4}%
 \contentsline {section}{\numberline {7.5}Result}{37}{section.7.5}%
 \contentsline {subsection}{\numberline {7.5.1}Time requirements}{37}{subsection.7.5.1}%
 \contentsline {subsection}{\numberline {7.5.2}ROC Curve}{38}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}OOB Vs L}{39}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.3}OOB versus Number of Base Learners}{39}{subsection.7.5.3}%
 \contentsline {subsection}{\numberline {7.5.4}Confusion Matrix}{40}{subsection.7.5.4}%
 \contentsline {subsection}{\numberline {7.5.5}Histogram}{41}{subsection.7.5.5}%
 \contentsline {section}{\numberline {7.6}Model Evaluation}{41}{section.7.6}%
@@ -67,4 +68,13 @@
 \contentsline {subsection}{\numberline {9.0.2}Future Enhancements}{44}{subsection.9.0.2}%
 \contentsline {chapter}{\numberline {10}Bibliography}{45}{chapter.10}%
 \contentsline {chapter}{Appendix}{48}{chapter*.46}%
+\contentsline {section}{\numberline {A}Demonstration}{48}{section.10.1}%
+\contentsline {subsection}{\numberline {A.1}HomePage}{48}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {A.2}Image Upload Section}{49}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {A.3}Selection an Image}{49}{subsection.10.1.3}%
+\contentsline {subsection}{\numberline {A.4}Results}{50}{subsection.10.1.4}%
+\contentsline {section}{\numberline {B}Model Training}{51}{section.10.2}%
+\contentsline {subsection}{\numberline {B.1}Splitting Dataset}{51}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {B.2}Feature Extraction}{51}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {B.3}Model Training}{52}{subsection.10.2.3}%
 \contentsfinish 
