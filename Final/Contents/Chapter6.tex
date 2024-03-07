@@ -52,10 +52,13 @@ Precision which is also called positive predictive value is the fraction of retr
 $$Precision = \frac{TP}{TP+FP} = \frac{3627}{3627+1373} = 0.73 $$
 \subsection*{Accuracy}
 Accuracy is the ratio of correctly predicted observation to the total observations. It is given by the formula:
-$$Accuracy = \frac{TP+TN}{TP+TN+FP+FN}= \frac{3627+1373}{3627+1373+2077+2923}=0.65$$
+$$Accuracy = \frac{TP+TN}{TP+TN+FP+FN}= \frac{3627+1373}{3627+1373+2077+2923}=0.66$$
 \subsection{Recall}
 Recall which is also called sensitivity is the fraction of relevant instances that have been retrieved over the total amount of relevant instances. It is the ratio of true positive to the sum of true positive and false negative. It is given by the formula:
 $$Recall = \frac{TP}{TP+FN} = \frac{3627}{3627+2077}= 0.64$$
+\subsection{F1 Score}
+F1 Score is the weighted average of Precision and Recall. It is given by the formula:
+$$F1\ Score = 2*\frac{Precision*Recall}{Precision+Recall} = 2*\frac{0.73*0.64}{0.73+0.64} = 0.68$$
 
 
 

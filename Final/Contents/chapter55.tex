@@ -2,24 +2,27 @@
 \section{USE CASE DIAGRAM}
 \begin{figure}[H]
     \centering
+    \vspace{1.5cm}
     \includegraphics[width=120mm]{./img/useCase.png}
     \caption{Use Case Diagram}
 \end{figure}
-\large{\textbf{Primary actor:}}
+\clearpage
+\begin{flushleft}
+\large{\textbf{Primary actor:}}  
+\end{flushleft}
+
 \begin{itemize}[noitemsep]
     \item User: Provides susceptible images to the system for analysis.
 \end{itemize}
 \begin{flushleft}
 \large{\textbf{Use-Cases:}}
 \end{flushleft}
-\clearpage
 \begin{enumerate}[noitemsep]
     \item Provide Image file with Invalid Format (Extend):
     \begin{itemize}
         \item This use case allows the user to provide an image file with JPEG extension to the system for analysis.
         \item If the image file is invalid, the system will handle this error by notifying the user and prompting them to provide a valid image.
     \end{itemize}
-    \clearpage
     \item Display Image (Include):
     \begin{itemize}
         \item This use case includes the functionality of displaying the image to the user.

@@ -12,35 +12,35 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Basic outline of Stacking Classifier}}{19}{figure.caption.19}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Use Case Diagram}}{25}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Sequence Diagram}}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces System Block Diagram}}{29}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces System Architecture}}{30}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Sequence Diagram}}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces System Block Diagram}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces System Architecture}}{29}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces ROC and Search for subspace dimensionality [DCTR]}}{32}{figure.caption.24}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Histogram and Confusion Matrix [DCTR]}}{32}{figure.caption.25}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces ROC and Search for subspace dimensionality [CC-C300]}}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Histogram and Confusion Matrix [CC-C300]}}{33}{figure.caption.27}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces ROC and Search for subspace dimensionality [CC-CHEN]}}{34}{figure.caption.28}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Histogram and Confusion Matrix [CC-CHEN]}}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces ROC and Search for subspace dimensionality [dsub=800]}}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Histogram and Confusion Matrix [dsub=800]}}{35}{figure.caption.32}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces ROC and Search for subspace dimensionality [dsub=1400]}}{35}{figure.caption.33}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Histogram and Confusion Matrix [dsub=1400]}}{36}{figure.caption.34}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces ROC and Search for subspace dimensionality [dsub=2600]}}{36}{figure.caption.35}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Histogram and Confusion Matrix [dsub=2600]}}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces ROC curve and OOB vs No of base learner [DCTR]}}{31}{figure.caption.24}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Histogram and Confusion Matrix [DCTR]}}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces ROC and Search for subspace dimensionality [CC-C300]}}{32}{figure.caption.26}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Histogram and Confusion Matrix [CC-C300]}}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces ROC and Search for subspace dimensionality [CC-CHEN]}}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Histogram and Confusion Matrix [CC-CHEN]}}{33}{figure.caption.29}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces ROC curve and OOB vs No of base learner[dsub=800]}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Histogram and Confusion Matrix [dsub=800]}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces ROC curve and OOB vs No of base learner [dsub=1400]}}{35}{figure.caption.34}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Histogram and Confusion Matrix [dsub=1400]}}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces ROC curve and OOB vs No of base learner[dsub=2600]}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Histogram and Confusion Matrix [dsub=2600]}}{36}{figure.caption.37}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces ROC Curve}}{38}{figure.caption.38}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces OOB Vs Number of Base Learners}}{39}{figure.caption.39}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Histogram of votes}}{41}{figure.caption.42}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces ROC Curve}}{38}{figure.caption.39}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces OOB Vs Number of Base Learners}}{39}{figure.caption.40}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Histogram of votes}}{41}{figure.caption.43}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A-1}{\ignorespaces Home Page}}{48}{figure.caption.46}%
-\contentsline {figure}{\numberline {A-2}{\ignorespaces Image Upload Section}}{49}{figure.caption.47}%
-\contentsline {figure}{\numberline {A-3}{\ignorespaces Image Selection}}{49}{figure.caption.48}%
-\contentsline {figure}{\numberline {A-4}{\ignorespaces Result}}{50}{figure.caption.49}%
-\contentsline {figure}{\numberline {A-5}{\ignorespaces Result}}{50}{figure.caption.50}%
-\contentsline {figure}{\numberline {A-6}{\ignorespaces Feature Extraction Screenshot}}{51}{figure.caption.51}%
-\contentsline {figure}{\numberline {A-7}{\ignorespaces Model Training Screenshot}}{51}{figure.caption.52}%
-\contentsline {figure}{\numberline {A-8}{\ignorespaces Splitting Dataset using PowerShell Script}}{52}{figure.caption.53}%
+\contentsline {figure}{\numberline {A-1}{\ignorespaces Home Page}}{48}{figure.caption.47}%
+\contentsline {figure}{\numberline {A-2}{\ignorespaces Image Upload Section}}{49}{figure.caption.48}%
+\contentsline {figure}{\numberline {A-3}{\ignorespaces Image Selection}}{49}{figure.caption.49}%
+\contentsline {figure}{\numberline {A-4}{\ignorespaces Result}}{50}{figure.caption.50}%
+\contentsline {figure}{\numberline {A-5}{\ignorespaces Result}}{50}{figure.caption.51}%
+\contentsline {figure}{\numberline {A-6}{\ignorespaces Feature Extraction Screenshot}}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {A-7}{\ignorespaces Model Training Screenshot}}{51}{figure.caption.53}%
+\contentsline {figure}{\numberline {A-8}{\ignorespaces Splitting Dataset using PowerShell Script}}{52}{figure.caption.54}%
 \contentsfinish 

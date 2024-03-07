@@ -95,8 +95,9 @@ Some of widely used ensemble methods are:
         \caption{Basic outline of Stacking Classifier}
     \end{figure}
 \end{itemize}
-\clearpage
-A standard ensemble approach used in classification tasks consists of the following fundamental components:
+\clearpage \begin{flushleft}
+A standard ensemble approach used in classification tasks consists of the following fundamental components:   
+\end{flushleft}
 \begin{enumerate}
     \item \textbf{Training set:} A labeled dataset is used for ensemble training. The instances of the dataset are described as attribute-value vectors. This set is crucial as it serves as the foundation for training the ensemble model, providing the necessary data points and their corresponding labels. In other words, it's the collection of data points used to train an ensemble learning algorithm. Each data point in the training set consists of two parts: the features (or attributes) and the label (or output). The features are the input variables used to predict the label, and the label is the output variable we want to predict.
     \item \textbf{Base Inducer:} The inducer is an induction algorithm that obtains a training set and forms a classifier that represents the generalized relationship between the input attributes and the target attribute. Decision trees, Neural networks, Support Vector Machines(SVMs), k-Nearest Neighbors(k-NN), Random Forsets, Gradient Boosting Machines(GBMs), AdaBoost etc. are different types of base learners that can be used in ensemble methods. The choice of base learner plays a vital role in the ensemble's performance and is often selected based on the nature of the problem and the characteristics of the data.
