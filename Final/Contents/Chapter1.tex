@@ -41,16 +41,32 @@ Some popular techniques of image steganography are listed below:
   
     \item \sloppy \textbf{HUGO Algorithm:}\\ HUGO, which stands for Highly Undetectable steGO, is a steganography algorithm designed to hide information within images. It achieves this by analyzing complex patterns and structures in an image, determining optimal locations to hide data.\cite{18}\cite{19}
   \end{enumerate}
+\section{Comparison of DCT coefficients of Cover and Stego Image}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.7\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{img/cover.jpg}
+        \caption{Cover Image}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.7\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{img/stego.jpg}
+        \caption{Stego Image}
+    \end{subfigure}
+    \caption{Cover and Stego Image with their DCT coefficients}
+\end{figure}
+By comparing the dct coefficient values of the images, we can differentiate between the stego and cover images. For example, the above table displays the respective 8*8 block DCT coefficient table for the cover and stego images.\\
+DCT coefficients represent different frequency components of an image. And in the case of an 8x8 block of pixels given, each block has its set of DCT coefficients. In the example, the first figure represents the statistical features of DCT coefficients from a block of a cover image. If the image is unaltered, the statistical features of its DCT coefficients should exhibit certain expected patterns.\\
+Where as,the second figure represents the DCT coefficients from a block of a stego image. Unusual DCT coefficient value change are compared compared to the cover image,which  doesn’t follow the expected pattern indicating that the image is altered and has hidden information.
 \section{Motivation}
 As motivated by the pressing need to combat cyber threats posed by the continuous evolution of steganography, which presents a serious threat to digital privacy and security, steganalysis tools have been used to detect embedded malicious content in an image. Given the extensive usage of images in digital communication, the use of advanced steganographic techniques in image files expose users to risk by concealing malicious data in easily accessible images. The increasing sophistication of steganographic techniques presents a challenge to traditional steganalysis approaches. This constitutes a significant risk of malicious data infiltration. To overcome this problem, new approaches must be investigated to accurately detect malicious data. By investigating steganalysis using ensemble classifiers, we aim to further strengthen the defenses against sophisticated steganographic attacks while maintaining computational efficiency.\\
-
+\clearpage
 \section{Problem Statement} 
 The continuous evolution of steganographic techniques poses a critical challenge to digital privacy. Since two-thirds of the internet comprises of images and play a major role in digital communication, there is a considerable risk of exploitation through steganography. With the increasing sophistication of methods used to embed information secretly, traditional steganalysis approaches struggle to accurately detect and mitigate the risks associated with concealed malicious content. There is a pressing need for proper steganalysis techniques that can effectively identify and minimize the risks posed by hidden data embedding. Additionally, as steganography becomes more prevalent in digital communication, there is a growing need to develop robust steganalysis tools capable of detecting hidden information.\\
 A notable example highlighting the need is the nefarious activities of the Witchetty espionage group, also known as LookingFrog. This group has demonstrated the malicious potential of steganography by compromising the security of Middle Eastern governments and the stock market in African countries by exploiting vulnerabilities using the Windows logo as a point of entry.\\
-To address these problems, there’s a critical need for advanced and flexible steganalysis methodology. These tools must be competent in detecting hidden information embedded in digital images. This project aims to develop steganalysis model using ensemble classifiers to specifically detect hidden data within images. Through the integration of ensemble classifiers, the system will enhance detection capabilities by aggregating decisions from multiple base classifiers, thereby improving accuracy and robustness in identifying alterations indicating steganographic manipulation. 
-\\
-\clearpage
-
+To address these problems, there’s a critical need for advanced and flexible steganalysis methodology. These tools must be competent in detecting hidden information embedded in digital images. This project aims to develop steganalysis model using ensemble classifiers to specifically detect hidden data within images. Through the integration of ensemble classifiers, the system will enhance detection capabilities by aggregating decisions from multiple base classifiers, thereby improving accuracy and robustness in identifying alterations indicating steganographic manipulation.\\
 \section{Objectives}
 The main objectives of this project is to:
 \begin{itemize}

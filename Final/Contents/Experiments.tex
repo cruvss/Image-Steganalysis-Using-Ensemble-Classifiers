@@ -14,7 +14,7 @@ Initially, we used (DCTR) features with a feature dimensionality of 8000 for tra
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/saturationdctr.jpg}
     \end{subfigure}
-    \caption{ROC and Search for subspace dimensionality}
+    \caption{ROC and Search for subspace dimensionality [DCTR]}
 \end{figure}
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
@@ -24,7 +24,7 @@ Initially, we used (DCTR) features with a feature dimensionality of 8000 for tra
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/confusiondctr.jpg}
     \end{subfigure}
-    \caption{Histogram and Confusion Matrix}
+    \caption{Histogram and Confusion Matrix [DCTR]}
 \end{figure}
 \clearpage
 \subsection{CC-CN Feature}
@@ -37,7 +37,7 @@ Later on, we came across cc-cN features, specifically cc-c300, which provided a 
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/saturation300.jpg}
     \end{subfigure}
-    \caption{ROC and Search for subspace dimensionality}
+    \caption{ROC and Search for subspace dimensionality [CC-C300]}
 \end{figure}
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
@@ -47,7 +47,7 @@ Later on, we came across cc-cN features, specifically cc-c300, which provided a 
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/confusion300.jpg}
     \end{subfigure}
-    \caption{Histogram and Confusion Matrix}
+    \caption{Histogram and Confusion Matrix [CC-C300]}
 \end{figure}
 \clearpage
 \subsection{CC-CHEN Feature}
@@ -60,7 +60,7 @@ We looked into another feature extraction method called cc-chen, which had 972 d
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/saturationchen.png}
     \end{subfigure}
-    \caption{ROC and Search for subspace dimensionality}
+    \caption{ROC and Search for subspace dimensionality [CC-CHEN]}
 \end{figure}
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
@@ -70,27 +70,30 @@ We looked into another feature extraction method called cc-chen, which had 972 d
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/confusionChen.png}
     \end{subfigure}
-    \caption{Histogram and Confusion Matrix}
+    \caption{Histogram and Confusion Matrix [CC-CHEN]}
 \end{figure}
 
 \section{Changing different parameters}
 After comparing with two other features we decied to choose CC-C300 feature. To get the optimal result we trained our model with different value of dsub and number of base learner. The results are shown below:
 \begin{table}[H]
+    \centering
     \begin{tabular}{|l|l|l|l|l|}
     \hline
     No of  Base Learner & Subspace size & Accuracy & Precision & Recall \\ \hline
-    120                 & 800           & 0.6947   &           &        \\ \hline
-    100                 & 1400          & 0.7045   &           &        \\ \hline
-    160                 & 2600          & 0.7116   &           &        \\ \hline
+    120                 & 800           & 0.6947   &    0.79       &  0.60      \\ \hline
+    100                 & 1400         & 0.7045   &    0.64       &   0.62     \\ \hline
+    160                 & 2600         & 0.7116   &    0.73       &    0.64    \\ \hline
     \end{tabular}
+    \caption{Performance of the model with different parameters}
 \end{table}
+
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/800/rocgray.jpg}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/800/optimalgray.jpg}
+        \includegraphics[width=\textwidth]{img/800/saturategray.jpg}
     \end{subfigure}
     \caption{ROC and Search for subspace dimensionality [dsub=800]}
 \end{figure}
@@ -111,7 +114,7 @@ After comparing with two other features we decied to choose CC-C300 feature. To 
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/1400/gray1400iopti.jpg}
+        \includegraphics[width=\textwidth]{img/1400/gray1400saturate.jpg}
     \end{subfigure}
     \caption{ROC and Search for subspace dimensionality [dsub=1400]}
 \end{figure}
@@ -126,18 +129,47 @@ After comparing with two other features we decied to choose CC-C300 feature. To 
     \caption{Histogram and Confusion Matrix [dsub=1400]}
 \end{figure}
 
+\begin{figure}[H]
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{img/2600/roc2600.jpg}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{img/2600/staturAATE2600.jpg}
+    \end{subfigure}
+    \caption{ROC and Search for subspace dimensionality [dsub=2600]}
+\end{figure}
+\begin{figure}[H]
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{img/2600/histo2600.jpg}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{img/2600/consuse2600.jpg}
+    \end{subfigure}
+    \caption{Histogram and Confusion Matrix [dsub=2600]}
+\end{figure}
+\clearpage
+
+\section{Comparison between MATLAB and Python}
+The decision between MATLAB and Python as our primary platform was influenced by the availability of feature extraction tools. Since our feature extraction process was exclusive to MATLAB, we were inclined to opt for MATLAB. Although the functionality to call and use python engine inside MATLAB is available but there are limitations to their usage as there are version compatibility issues. For the functionality of using python in MATLAB we require matlabengine which has various bugs and they have various version compatibility issues as well.\\
+There are also various procedure which had to be carefully followed in order to properly execute python libraries. 
+Thus, although it’s possible to call MATLAB functions from Python, limitations such as version compatibility and slower execution using MATLAB Engine prompted us to stick with MATLAB for feature extraction\\
+For the creation of the demos, there were functionalities to create app demo using MATLAB as backend and frontend as well but it required matlabengine which had as afore mentioned various compatibility issues. So, we opted to use MATLAB's matlab app designer functionality for creating a demo app without the need of matlabengine.
 
 
 
 
-In assessing classification methods, we experimented with using a Random Forest ensemble classifier in Python. The model's performance and accuracy closely matched those obtained using MATLAB.\\
 
-The decision between MATLAB and Python as our primary platform was influenced by the availability of feature extraction tools. Since our feature extraction process was exclusive to MATLAB, we opted for it. Although it's possible to call MATLAB functions from Python, limitations such as version compatibility and slower execution using MATLAB Engine prompted us to stick with MATLAB for feature extraction.\\
-TO call matlab from python it requires matlabengine. matlabengine is bla bla matlab ko version anusar python ko version vary garna parcha........ \\
 
-For creating a demo, we investigated using MATLAB as a backend. It was possible but again it rquired matlabengine. so we used matlab app designer for the UI. mmatlab app designer is bla bla bla
-k chutyo?
-about matlab Engine
-about matlab app designer
-why matlab engine not used---------> slower
-why matlab app designer used-----------> backend ma matlab engine use hune vayera 
+% In assessing classification methods, we experimented with using a Random Forest ensemble classifier in Python. The model's performance and accuracy closely matched those obtained using MATLAB.\\
+
+% The decision between MATLAB and Python as our primary platform was influenced by the availability of feature extraction tools. Since our feature extraction process was exclusive to MATLAB, we opted for it. Although it's possible to call MATLAB functions from Python, limitations such as version compatibility and slower execution using MATLAB Engine prompted us to stick with MATLAB for feature extraction.\\
+% TO call matlab from python it requires matlabengine. matlabengine is bla bla matlab ko version anusar python ko version vary garna parcha........ \\
+
+% For creating a demo, we investigated using MATLAB as a backend. It was possible but again it rquired matlabengine. so we used matlab app designer for the UI. mmatlab app designer is bla bla bla
+% k chutyo?
+% about matlab Engine
+% about matlab app designer
+% why matlab engine not used---------> slower
+% why matlab app designer used-----------> backend ma matlab engine use hune vayera 

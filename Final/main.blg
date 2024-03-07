@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: Contents/coverpage.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: Contents/Titlepage.aux
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: Contents/certificate.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
@@ -41,7 +43,7 @@ A level-1 auxiliary file: Contents/Appendix.aux
 Database file #1: ref.bib
 You've used 22 entries,
             1791 wiz_defined-function locations,
-            599 strings with 8031 characters,
+            600 strings with 8053 characters,
 and the built_in function-call counts, 6541 in all, are:
 = -- 614
 > -- 276

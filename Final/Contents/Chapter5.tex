@@ -1,19 +1,20 @@
 \chapter{Methodology} \sloppy
-\section{Software Development Approach}
- Agile is an iterative process-based approach to software development. In the Agile process model, work is broken down into more manageable, smaller iterations without requiring a lot of long-term planning. The requirements and scope of the project are determined early on, and the number, length, and scope of each iteration are preplanned. Each iteration is considered as a short time ``frame'' in the Agile process model, which lasts for a few weeks. In each iteration, teams move through the phases of the software development life cycle, which include planning, requirements analysis, design, coding, testing, and demonstration of a working product for client review. Agile places a significant value on flexibility, teamwork, and regular client feedback.\\
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=80mm]{./img/agile.png}
-    \caption{Agile Model}
-\end{figure}
-The main reason for which  we choose this development process:
-\begin{enumerate}[noitemsep] %label=\Roman*.]
-\item Very quick,flexible and efficient.
-\item Risk minimization.
-\item Projects are split into sprints for better management and productivity.
-\item Through iterative testing and sprints, the final product contains less bugs. 
-\item Development period for applications is reduced.
-\end{enumerate}
+% \section{Software Development Approach}
+%  Agile is an iterative process-based approach to software development. In the Agile process model, work is broken down into more manageable, smaller iterations without requiring a lot of long-term planning. The requirements and scope of the project are determined early on, and the number, length, and scope of each iteration are preplanned. Each iteration is considered as a short time ``frame'' in the Agile process model, which lasts for a few weeks. In each iteration, teams move through the phases of the software development life cycle, which include planning, requirements analysis, design, coding, testing, and demonstration of a working product for client review. Agile places a significant value on flexibility, teamwork, and regular client feedback.\\
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=80mm]{./img/agile.png}
+%     \caption{Agile Model}
+% \end{figure}
+% The main reason for which  we choose this development process:
+% \begin{enumerate}[noitemsep] %label=\Roman*.]
+% \item Very quick,flexible and efficient.
+% \item Risk minimization.
+% \item Projects are split into sprints for better management and productivity.
+% \item Through iterative testing and sprints, the final product contains less bugs. 
+% \item Development period for applications is reduced.
+% \end{enumerate}
+
 \section{Data Collection} 
 We have gathered data from the IStego100K dataset\cite{7}, a comprehensive collection of images for steganalysis research. The training images in IStego100K were collected from Unsplash\footnote{\url{https://unsplash.com/}}, a copyright free photography website. This dataset consits 200,000 JPEG images, divided into two main categories: "Stego" and "Cover," each containing 100,000 images. The "Stego" subset consists of images where the original cover images from the dataset have been modified to hide information. Each steganographic image is randomly steganized with three widely used image steganography algorithms (J-uniward\cite{22} ,NSF5\cite{17} and UERD\cite{13}) with a random embedding rate (0.1-0.4bpac). This diversity makes the dataset particularly valuable for developing models capable of detecting hidden data across various embedding techniques and makes dataset universal. Conversely, the "Cover" subset consists of unaltered images, serving as the baseline for comparison.\\
 The images in the dataset are standardized to 1024x1024 pixels in RGB format, with each image assigned random quality factors ranging from 75 to 95. Additionally, the payload for embedding is randomly distributed within the range of 0.1 to 0.4 bits per coefficient (bpac).[0.10 bpac means that for every  cofficient in the DCT domain of the cover image, 0.10 bits of secret data are hidden on average.]\\
@@ -81,11 +82,6 @@ For $CC-C2$, the importance of each co-occurrence matrix is determined by mutual
 where the dimension is $2 \times 3 \times 3 = 18$.
 
 For mutual information (MI) to calculate the importance of co-occurrence, entropy and conditional entropy for each feature are calculated. The mutual information is then computed as the difference between entropy and conditional entropy for each feature, given by \text{mutual\_info\_score}(mode1, mode2).\
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=150mm]{./img/feature_extraction.png}
-    \caption{Feature Extraction Process}
-\end{figure}
 
 \section{Ensemble Classifiers}
 Ensemble classifiers are machine learning techniques that combine multiple individual models, or ``base learners,'' to make predictions. The main idea behind the ensemble methodology is to weigh several individual classifiers, and combine them in order to obtain a classifier that outperforms every one of them. The key objective of the ensemble methods is to reduce bias and variance. High bias means the model is too simplistic and may not capture the underlying patterns in the data, leading to underfitting. Ensemble methods aim to reduce bias by combining multiple models, each capturing different aspects of the data. High variance means the model is overly complex and may capture noise or random fluctuations in the data, leading to overfitting. Ensemble methods aim to reduce variance by averaging the predictions of multiple models, smoothing out individual fluctuations and creating a more stable and reliable overall prediction.\\
