@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  7 MAR 2024 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  7 MAR 2024 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1351,74 +1351,75 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 120--127
 [][]  [] 
  []
 
-<img/1400/gray1400roc.jpg, id=776, 702.625pt x 526.96875pt>
-File: img/1400/gray1400roc.jpg Graphic file (type jpg)
-<use img/1400/gray1400roc.jpg>
-Package pdftex.def Info: img/1400/gray1400roc.jpg  used on input line 133.
-(pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
-<img/1400/gray1400saturate.jpg, id=777, 702.625pt x 526.96875pt>
-File: img/1400/gray1400saturate.jpg Graphic file (type jpg)
-<use img/1400/gray1400saturate.jpg>
-Package pdftex.def Info: img/1400/gray1400saturate.jpg  used on input line 137.
-(pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 132--139
-[][]  [] 
- []
-
 [34
 
  <./img/800/rocgray.jpg> <./img/800/saturategray.jpg> <./img/800/histogramgray.jpg> <./img/800/confusegray.jpg>]
+<img/1400/gray1400roc.jpg, id=780, 702.625pt x 526.96875pt>
+File: img/1400/gray1400roc.jpg Graphic file (type jpg)
+<use img/1400/gray1400roc.jpg>
+Package pdftex.def Info: img/1400/gray1400roc.jpg  used on input line 134.
+(pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
+<img/1400/gray1400saturate.jpg, id=781, 702.625pt x 526.96875pt>
+File: img/1400/gray1400saturate.jpg Graphic file (type jpg)
+<use img/1400/gray1400saturate.jpg>
+Package pdftex.def Info: img/1400/gray1400saturate.jpg  used on input line 138.
+(pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 133--140
+[][]  [] 
+ []
+
 <img/1400/gray1400histo.jpg, id=782, 702.625pt x 526.96875pt>
 File: img/1400/gray1400histo.jpg Graphic file (type jpg)
 <use img/1400/gray1400histo.jpg>
-Package pdftex.def Info: img/1400/gray1400histo.jpg  used on input line 143.
+Package pdftex.def Info: img/1400/gray1400histo.jpg  used on input line 144.
 (pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
 <img/1400/gray1400confuse.jpg, id=783, 702.625pt x 526.96875pt>
 File: img/1400/gray1400confuse.jpg Graphic file (type jpg)
 <use img/1400/gray1400confuse.jpg>
-Package pdftex.def Info: img/1400/gray1400confuse.jpg  used on input line 147.
+Package pdftex.def Info: img/1400/gray1400confuse.jpg  used on input line 148.
 (pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 142--149
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 143--150
 [][]  [] 
  []
 
 <img/2600/roc2600.jpg, id=784, 702.625pt x 526.96875pt>
 File: img/2600/roc2600.jpg Graphic file (type jpg)
 <use img/2600/roc2600.jpg>
-Package pdftex.def Info: img/2600/roc2600.jpg  used on input line 154.
+Package pdftex.def Info: img/2600/roc2600.jpg  used on input line 155.
 (pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
 <img/2600/staturAATE2600.jpg, id=785, 702.625pt x 526.96875pt>
 File: img/2600/staturAATE2600.jpg Graphic file (type jpg)
 <use img/2600/staturAATE2600.jpg>
-Package pdftex.def Info: img/2600/staturAATE2600.jpg  used on input line 158.
+Package pdftex.def Info: img/2600/staturAATE2600.jpg  used on input line 159.
 (pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 153--160
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 154--161
 [][]  [] 
  []
 
-<img/2600/histo2600.jpg, id=786, 702.625pt x 526.96875pt>
+[35 <./img/1400/gray1400roc.jpg> <./img/1400/gray1400saturate.jpg> <./img/1400/gray1400histo.jpg> <./img/1400/gray1400confuse.jpg>]
+<img/2600/histo2600.jpg, id=790, 702.625pt x 526.96875pt>
 File: img/2600/histo2600.jpg Graphic file (type jpg)
 <use img/2600/histo2600.jpg>
-Package pdftex.def Info: img/2600/histo2600.jpg  used on input line 164.
+Package pdftex.def Info: img/2600/histo2600.jpg  used on input line 165.
 (pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
-<img/2600/consuse2600.jpg, id=787, 702.625pt x 526.96875pt>
+<img/2600/consuse2600.jpg, id=791, 702.625pt x 526.96875pt>
 File: img/2600/consuse2600.jpg Graphic file (type jpg)
 <use img/2600/consuse2600.jpg>
-Package pdftex.def Info: img/2600/consuse2600.jpg  used on input line 168.
+Package pdftex.def Info: img/2600/consuse2600.jpg  used on input line 169.
 (pdftex.def)             Requested size: 208.41644pt x 156.3148pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 163--170
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 164--171
 [][]  [] 
  []
 
-[35 <./img/1400/gray1400roc.jpg> <./img/1400/gray1400saturate.jpg> <./img/1400/gray1400histo.jpg> <./img/1400/gray1400confuse.jpg>] [36 <./img/2600/roc2600.jpg> <./img/2600/staturAATE2600.jpg> <./img/2600/histo2600.jpg> <./img/2600/consuse2600.jpg>]
+[36 <./img/2600/roc2600.jpg> <./img/2600/staturAATE2600.jpg> <./img/2600/histo2600.jpg> <./img/2600/consuse2600.jpg>]
 <./img/2600/roc2600.jpg, id=796, 702.625pt x 526.96875pt>
 File: ./img/2600/roc2600.jpg Graphic file (type jpg)
 <use ./img/2600/roc2600.jpg>
-Package pdftex.def Info: ./img/2600/roc2600.jpg  used on input line 216.
+Package pdftex.def Info: ./img/2600/roc2600.jpg  used on input line 217.
 (pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
  [37
 
@@ -1426,22 +1427,22 @@ Package pdftex.def Info: ./img/2600/roc2600.jpg  used on input line 216.
 <./img/2600/staturAATE2600.jpg, id=801, 702.625pt x 526.96875pt>
 File: ./img/2600/staturAATE2600.jpg Graphic file (type jpg)
 <use ./img/2600/staturAATE2600.jpg>
-Package pdftex.def Info: ./img/2600/staturAATE2600.jpg  used on input line 224.
+Package pdftex.def Info: ./img/2600/staturAATE2600.jpg  used on input line 225.
 (pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
  [38 <./img/2600/roc2600.jpg>]
 <./img/2600/consuse2600.jpg, id=807, 702.625pt x 526.96875pt>
 File: ./img/2600/consuse2600.jpg Graphic file (type jpg)
 <use ./img/2600/consuse2600.jpg>
-Package pdftex.def Info: ./img/2600/consuse2600.jpg  used on input line 232.
+Package pdftex.def Info: ./img/2600/consuse2600.jpg  used on input line 233.
 (pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
  [39 <./img/2600/staturAATE2600.jpg>]
 <./img/2600/histo2600.jpg, id=812, 702.625pt x 526.96875pt>
 File: ./img/2600/histo2600.jpg Graphic file (type jpg)
 <use ./img/2600/histo2600.jpg>
-Package pdftex.def Info: ./img/2600/histo2600.jpg  used on input line 240.
+Package pdftex.def Info: ./img/2600/histo2600.jpg  used on input line 241.
 (pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
  [40 <./img/2600/consuse2600.jpg>]
-Overfull \hbox (35.56749pt too wide) detected at line 252
+Overfull \hbox (35.56749pt too wide) detected at line 253
 \OML/cmm/m/it/14.4 Accuracy \OT1/cmr/m/n/14.4 = [] = [] = 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 66
  []
 
@@ -1562,7 +1563,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1499b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/sachi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (63 pages, 3610927 bytes).
+Output written on main.pdf (63 pages, 3611186 bytes).
 PDF statistics:
  1019 PDF objects out of 1200 (max. 8388607)
  254 named destinations out of 1000 (max. 500000)
