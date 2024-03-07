@@ -4,7 +4,6 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=80mm]{./img/agile.png}
-    \caption*{\small{\textit{Source: https://www.javatpoint.com/agile-vs-waterfall-model}}}
     \caption{Agile Model}
 \end{figure}
 The main reason for which  we choose this development process:
@@ -23,7 +22,9 @@ There are alternative datasets for steganalysis, such as BOSSbase 1.01 and BURST
 
 \section{Pre-feature Space}
 The pre feature space is the space before the feature extraction process which involves various processes such as normalization, noise reduction or other process to enhance the quality of the data before feature extraction.
-The images was changed or modified as necessary in order to prepare them for feature extraction process. The feature extraction process we were to perform was CC-C300 which took features from only on channel from the RGB so, to ensure that all the information from image is considered we turned the colored image into gray scaled image which lets go off all its other information and holds most or all of its information in the luminance channel.
+The images were changed or modified as the need arose ,in order to prepare it for feature extraction process. The feature extraction process we were to perform was CC-C300 which took features from only one channel from the RGB thus, to ensure that all the information from image is considered on a single channel we turned the colored image into gray scaled image which 
+eliminates color information, retains only the luminance (brightness) channel while still maintaining the important structural details and intensity variations from the original colored image. When conversion of colored image to grayscale is done, the colors are lost, but the grayscale version still keeps important stuff like the differences in brightness, edges, and the overall structure of the image.
+\clearpage
 \section{Feature extraction}
 \subsection{JPEG Coefficient Analysis}
 In the initial step, the JPEG coefficients for each $8 \times 8$ block are computed, denoted as $D(i,j)(k,l)$, representing the $(k, l)$ coefficient in the $i, j$ block. Here, $k, l = 0, 1, 2, ...7$, $i = 1, 2, 3, ..., 8(M/8)$, and $j = 1, 2, 3, ..., 8(N/8)$, with $M \times N$ as image dimensions. Subsequently, the coefficients undergo truncation to simplify complexity, ensuring the quantized DCT or JPEG coefficients are centered around 0.
@@ -60,7 +61,7 @@ The truncation value $T$ is set to 4, resulting in a co-occurrence matrix of dim
 
 Initially, all possible DCT mode pairs are sorted based on their importance, and co-occurrences are then formed from the most important to the least important ones. As a measure of importance, mutual information (MI) is computed over a sufficiently large set of randomly selected DCT coefficient pairs from those two modes, using the \texttt{mutual\_info\_score(mode1, mode2)} where \texttt{mode1} and \texttt{mode2} are selected randomly.
 
-\subsection.{Feature Set Creation}
+\subsection{Feature Set Creation}
 
 The top $N$ concatenated co-occurrence matrices, denoted as $CN$, yield a dimension of $N \times 81$. After Cartesian calibration, the dimensionality of what we denote as $CC-CN$ doubles to $2 \times N \times 81$. Choosing $N$ as 300, we have $CC-C300$ with a dimensionality of $2 \times 300 \times 81 = 48,600$ for each image, irrespective of image dimensionality.
 
@@ -104,6 +105,7 @@ Some of widely used ensemble methods are:
         \caption*{\small{\textit{Source: https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/}}}
         \caption{Basic outline of Boosting Classifier}
     \end{figure}
+    \clearpage
     \item \textbf{Stacking:} Stacking is an ensemble method that involves training multiple models and combining their predictions using another model, called a meta-learner. The meta-learner is trained on the predictions of the base models and learns to combine them into a final prediction.
     \begin{figure}[H]
         \centering
