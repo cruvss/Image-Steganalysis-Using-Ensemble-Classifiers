@@ -1,8 +1,6 @@
 \chapter{Result and Discussion}
-\chapter{Experiments}
 \section{Dataset Preparation}
-After the selection of our Dataset which is IStego100K\cite{7}, now we need to further process this dataset. It was not feasible to train the model using all data at once. So, Initially we splitted the dataset into different batches. Each batch consisting of 40,000 images (20000 cover images and 20000 stego images). We tried to train the model using this subset of datset but there was mermory Limitation problem. We then reduced the batch size to 30,000 (15,000 cover images and 15,000 stego images), but still faced the same issue. Finally, we set the batch size to 20,000 (10,000 cover and 10,000 stego), which allowed the training process to proceed successfully. To split the dataset, we utilized a Microsoft PowerShell script, which splitted the dataset into the desired subsets and stored them in respective subfolders.
-
+After the selection of our Dataset which is IStego100K\cite{7}, now we need to further process this dataset. It was not feasible to train the model using all data at once. So, Initially we splitted the dataset into different batches. Each batch consisting of 40,000 images (20000 cover images and 20000 stego images). We tried to train the model using this subset of datset but there was mermory Limitation problem. We then reduced the batch size to 30,000 (15,000 cover images and 15,000 stego images), but still faced the same issue. Finally, we set the batch size to 20,000 (10,000 cover and 10,000 stego), which allowed the training process to proceed successfully. To split the dataset, we utilized a Microsoft PowerShell script, which splitted the dataset into the desired subsets and stored them in respective subfolders.\\
 \section{Trainig the Ensemble Model}
 Before training the model, it was necessary to identify the most suitable features for our project. Therefore, we conducted several tests to determine the optimal feature set for training our model.
 \subsection{DCTR Feature}
@@ -27,7 +25,9 @@ Initially, we used (DCTR) features with a feature dimensionality of 8000 for tra
     \end{subfigure}
     \caption{Histogram and Confusion Matrix [DCTR]}
 \end{figure}
-Using DCTR as feacture vector for trainig the model we gotArea Under the Curve (AUC) of 0.59 which is quite low. We tried using different sub-set of data set but result was still same. Above graphs shows ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes.
+\begin{flushleft}
+Using DCTR as feacture vector for trainig the model we got Area Under the Curve (AUC) of 0.59 which is quite low. We tried using different sub-set of data set but result was still same. Above graphs shows ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes.
+\end{flushleft}
 \clearpage
 \subsection{CC-CN Feature}
 Later on, we came across cc-cN features, specifically cc-c300, which provided a higher dimensionality of 48600. These features proved to be more effective in capturing dependencies among individual cover elements. Due to the large dimensionality of our images, we used for Fisher's Linear Discriminant (FLD) as the base learner for our ensemble classifier. As a result, we observed improved performance compared to our earlier one.\\
@@ -51,7 +51,9 @@ Later on, we came across cc-cN features, specifically cc-c300, which provided a 
     \end{subfigure}
     \caption{Histogram and Confusion Matrix [CC-C300]}
 \end{figure}
-Above graphs shows ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes.Using CC-C300 as feature vector for training the model we got Area Under the Curve (AUC) of 0.7116 which is comparatively higher than the DCTR model. Upon using different sub-set of datasets the result was still same. The OOB error was minimum in CC-C300 using the number of base learners = 150.
+\begin{flushleft}
+Above graphs shows ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes.Using CC-C300 as feature vector for training the model we got Area Under the Curve (AUC) of 0.7116 which is comparatively higher than the DCTR model. Upon using different sub-set of datasets the result was still same. The OOB error was minimum when number of base learners was 160.
+\end{flushleft}
 \clearpage
 \subsection{CC-CHEN Feature}
 We looked into another feature extraction method called cc-chen, which had 972 dimensions, to see if it was better than cc-c300. However, the results weren't as good as with cc-c300. So, we decided that cc-c300 was the best choice for our project.\\
@@ -89,20 +91,6 @@ Table below contiain summary of the performance of the model with different feat
     \end{tabular}
     \caption{Performance of the model with different features}
 \end{table}
-\begin{flushleft}
-    Table below contiain summary of the performance of the model with different features.
-    \end{flushleft}
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-        \hline
-        Feature & Accuracy & Precision & Recall & F1 Score \\ \hline
-        DCTR    & 0.56   & 0.55    & 0.56 & 0.56  \\ \hline
-        CC-CHEN & 0.61     & 0.70      & 0.59   & 0.65     \\ \hline
-        CC-C300 & 0.66     & 0.73      & 0.64   & 0.68     \\ \hline
-        \end{tabular}
-        \caption{Performance of the model with different features}
-    \end{table}
 \clearpage
 \section{Changing different parameters}
 After comparing with two other features we decied to choose CC-C300 feature. To get the optimal result we trained our model with different value of dsub and number of base learner. The results are shown below:
@@ -138,7 +126,7 @@ After comparing with two other features we decied to choose CC-C300 feature. To 
     \end{subfigure}
     \caption{Histogram and Confusion Matrix [dsub=800]}
 \end{figure}
-
+Using 800 sub space dimensionality with CC-C300 feature vector we got Area Under the Curve (AUC) of 0.69. The ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes are shown in the above graphs. The OOB error was minimum when number of base learner was 120. In this process we made sub space dimensionality constant of 800 while number of base learner to automatically get selected when OOB error was minimum.
 
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
@@ -160,7 +148,7 @@ After comparing with two other features we decied to choose CC-C300 feature. To 
     \end{subfigure}
     \caption{Histogram and Confusion Matrix [dsub=1400]}
 \end{figure}
-Using CC-C300 feature vectors and 1400 subspaces, we examined a model's performance. With an Area Under the Curve (AUC) of 0.7045. ROC curves, OOB error versus the number of base learners, a confusion matrix, and a vote histogram were used to illustrate the behavior of the model. The least amount of out-of-bag error (OOB) was obtained when 105 base learners were used. In order to reduce the OOB error, the number of base learners was automatically adjusted during the analysis, with the subspace dimensionality fixed at 1400.
+After that we changed sub space dimensionality to 1400, we examined a model's performance and got an Area Under the Curve (AUC) of 0.7045. ROC curves, OOB error versus the number of base learners, a confusion matrix, and a vote histogram were used to illustrate the behavior of the model. The least amount of out-of-bag error (OOB) was obtained when 100 base learners were used. In order to reduce the OOB error, the number of base learners was automatically adjusted during the analysis, with the subspace dimensionality fixed at 1400.
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/2600/roc2600.jpg}

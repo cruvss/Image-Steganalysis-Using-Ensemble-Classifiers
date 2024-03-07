@@ -44,28 +44,27 @@
 \contentsline {section}{\numberline {6.3}SYSTEM BLOCK DIAGRAM}{28}{section.6.3}%
 \contentsline {section}{\numberline {6.4}System Architecture}{29}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Result and Discussion}{30}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Experiments}{31}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Dataset Preparation}{31}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Trainig the Ensemble Model}{31}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}DCTR Feature}{31}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}CC-CN Feature}{33}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}CC-CHEN Feature}{34}{subsection.8.2.3}%
-\contentsline {section}{\numberline {8.3}Changing different parameters}{36}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Comparison between MATLAB and Python}{39}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Result}{39}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Time requirements}{39}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {8.5.2}ROC Curve}{40}{subsection.8.5.2}%
-\contentsline {subsection}{\numberline {8.5.3}OOB Vs L}{41}{subsection.8.5.3}%
-\contentsline {subsection}{\numberline {8.5.4}Confusion Matrix}{42}{subsection.8.5.4}%
-\contentsline {subsection}{\numberline {8.5.5}Histogram}{43}{subsection.8.5.5}%
-\contentsline {section}{\numberline {8.6}Model Evaluation}{43}{section.8.6}%
-\contentsline {subsection}{\numberline {8.6.1}Performance Metrices}{43}{subsection.8.6.1}%
-\contentsline {subsection}{\numberline {8.6.2}Recall}{44}{subsection.8.6.2}%
-\contentsline {subsection}{\numberline {8.6.3}F1 Score}{44}{subsection.8.6.3}%
-\contentsline {chapter}{\numberline {9}Conclusion}{45}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Limitations and Future Enhancements}{46}{chapter.10}%
-\contentsline {subsection}{\numberline {10.0.1}Limitations}{46}{subsection.10.0.1}%
-\contentsline {subsection}{\numberline {10.0.2}Future Enhancements}{46}{subsection.10.0.2}%
-\contentsline {chapter}{\numberline {11}Bibliography}{47}{chapter.11}%
-\contentsline {chapter}{Appendix}{50}{chapter*.47}%
+\contentsline {section}{\numberline {7.1}Dataset Preparation}{30}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Trainig the Ensemble Model}{30}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}DCTR Feature}{30}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}CC-CN Feature}{32}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}CC-CHEN Feature}{33}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Changing different parameters}{34}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Comparison between MATLAB and Python}{37}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Result}{37}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Time requirements}{37}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}ROC Curve}{38}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}OOB Vs L}{39}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.4}Confusion Matrix}{40}{subsection.7.5.4}%
+\contentsline {subsection}{\numberline {7.5.5}Histogram}{41}{subsection.7.5.5}%
+\contentsline {section}{\numberline {7.6}Model Evaluation}{41}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Performance Metrices}{41}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Recall}{42}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}F1 Score}{42}{subsection.7.6.3}%
+\contentsline {chapter}{\numberline {8}Conclusion}{43}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Limitations and Future Enhancements}{44}{chapter.9}%
+\contentsline {subsection}{\numberline {9.0.1}Limitations}{44}{subsection.9.0.1}%
+\contentsline {subsection}{\numberline {9.0.2}Future Enhancements}{44}{subsection.9.0.2}%
+\contentsline {chapter}{\numberline {10}Bibliography}{45}{chapter.10}%
+\contentsline {chapter}{Appendix}{48}{chapter*.46}%
 \contentsfinish 
