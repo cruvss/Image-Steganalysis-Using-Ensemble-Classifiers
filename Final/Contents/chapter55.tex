@@ -1,5 +1,5 @@
 \chapter{System Design and Architecure}
-\section{USE CASE DIAGRAM}
+\section{Use Case Diagram}
 \begin{figure}[H]
     \centering
     \vspace{1.5cm}
@@ -41,26 +41,30 @@
     \end{itemize}
 \end{enumerate}
 \clearpage
-\section{SEQUENCE DIAGRAM}
+\section{Sequence Diagram}
 \begin{figure}[H]
     \centering
     \includegraphics[width=120mm]{./img/sequenceDiagram.png}
     \caption{Sequence Diagram}
 \end{figure}
 \large{\textbf{Objects}}
+\normalsize{
 \begin{enumerate}[noitemsep]
     \item User
     \item CC-C300
     \item Predictor
 \end{enumerate}
+}
 \large{\textbf{Steps}}
+\normalsize{
 \begin{enumerate}[noitemsep]
     \item The User sends a message to the CC-C300 extractor to provide the path to the image.
     \item The CC-C300 processes the image, extracts the features and sends a message ``ccc300\_features'' to the Predictor to provide the features.
     \item Finally, the Predictor sends the prediction result back to the User through the message ``return\_prediction()''
 \end{enumerate}
+}
 
-\section{SYSTEM BLOCK DIAGRAM}
+\section{System Block Diagram}
 \begin{figure}[H]
     \centering
     \includegraphics[width=160mm]{./img/blockDiagram.png}

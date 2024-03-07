@@ -1,4 +1,5 @@
 \chapter{Result and Discussion}
+\setcounter{secnumdepth}{4}
 \section{Dataset Preparation}
 After the selection of our Dataset which is IStego100K\cite{7}, now we need to further process this dataset. It was not feasible to train the model using all data at once. So, Initially we splitted the dataset into different batches. Each batch consisting of 40,000 images (20000 cover images and 20000 stego images). We tried to train the model using this subset of datset but there was mermory Limitation problem. We then reduced the batch size to 30,000 (15,000 cover images and 15,000 stego images), but still faced the same issue. Finally, we set the batch size to 20,000 (10,000 cover and 10,000 stego), which allowed the training process to proceed successfully. To split the dataset, we utilized a Microsoft PowerShell script, which splitted the dataset into the desired subsets and stored them in respective subfolders.\\
 \section{Trainig the Ensemble Model}
@@ -15,16 +16,26 @@ Initially, we used (DCTR) features with a feature dimensionality of 8000 for tra
     \end{subfigure}
     \caption{ROC curve and OOB vs No of base learner [DCTR]}
 \end{figure}
+
+
 \begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/histoDctr.jpg}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/confusiondctr.jpg}
-    \end{subfigure}
-    \caption{Histogram and Confusion Matrix [DCTR]}
+    \caption{Histogram of votes [DCTR]}
+\begin{table}[H]
+    \centering
+    %\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+            \includegraphics[width=\textwidth]{img/confusiondctr.jpg}
+        \end{subfigure}
+    %\end{figure}
+    \caption{Confusion Matrix [DCTR]}
+\end{table}
+
 \end{figure}
+
 \begin{flushleft}
 Using DCTR as feacture vector for trainig the model we got Area Under the Curve (AUC) of 0.59 which is quite low. We tried using different sub-set of data set but result was still same. Above graphs shows ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes.
 \end{flushleft}
@@ -42,14 +53,20 @@ Later on, we came across cc-cN features, specifically cc-c300, which provided a 
     \caption{ROC and Search for subspace dimensionality [CC-C300]}
 \end{figure}
 \begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/histo300.jpg}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/confusion300.jpg}
-    \end{subfigure}
-    \caption{Histogram and Confusion Matrix [CC-C300]}
+    \caption{Histogram of votes [CC-C300]}
+\begin{table}[H]
+    \centering
+    %\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+            \includegraphics[width=\textwidth]{img/confusion300.jpg}
+        \end{subfigure}
+    %\end{figure}
+    \caption{Confusion Matrix [CC-C300]}
+\end{table}
 \end{figure}
 \begin{flushleft}
 Above graphs shows ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes.Using CC-C300 as feature vector for training the model we got Area Under the Curve (AUC) of 0.7116 which is comparatively higher than the DCTR model. Upon using different sub-set of datasets the result was still same. The OOB error was minimum when number of base learners was 160.
@@ -68,14 +85,20 @@ We looked into another feature extraction method called cc-chen, which had 972 d
     \caption{ROC and Search for subspace dimensionality [CC-CHEN]}
 \end{figure}
 \begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/histochen.png}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/confusionChen.png}
-    \end{subfigure}
-    \caption{Histogram and Confusion Matrix [CC-CHEN]}
+    \caption{Histogram of votes [CC-CHEN]}
+\begin{table}[H]
+    \centering
+    %\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+            \includegraphics[width=\textwidth]{img/confusionChen.png}
+        \end{subfigure}
+    %\end{figure}
+    \caption{Confusion Matirx [CC-CHEN]}
+\end{table}
 \end{figure}
 \begin{flushleft}
 Table below contiain summary of the performance of the model with different features.
@@ -91,17 +114,16 @@ Table below contiain summary of the performance of the model with different feat
     \end{tabular}
     \caption{Performance of the model with different features}
 \end{table}
-\clearpage
 \section{Changing different parameters}
 After comparing with two other features we decied to choose CC-C300 feature. To get the optimal result we trained our model with different value of dsub and number of base learner. The results are shown below:
 \begin{table}[H]
     \centering
-    \begin{tabular}{|l|l|l|l|l|}
+    \begin{tabular}{|l|l|l|l|l|l|}
     \hline
-    No of  Base Learner & Subspace size & Accuracy & Precision & Recall \\ \hline
-    120                 & 800           & 0.6947   &    0.79       &  0.60      \\ \hline
-    100                 & 1400         & 0.7045   &    0.64       &   0.62     \\ \hline
-    160                 & 2600         & 0.7116   &    0.73       &    0.64    \\ \hline
+    No of  Base Learner & Subspace size & Accuracy & Precision & Recall &F1 Score \\ \hline
+    120                 & 800           & 0.6947   &    0.79       &  0.60&  0.68    \\ \hline
+    100                 & 1400         & 0.7045   &    0.64       &   0.62 & 0.63   \\ \hline
+    160                 & 2600         & 0.7116   &    0.73       &    0.64 & 0.69  \\ \hline
     \end{tabular}
     \caption{Performance of the model with different parameters}
 \end{table}
@@ -117,15 +139,22 @@ After comparing with two other features we decied to choose CC-C300 feature. To 
     \caption{ROC curve and OOB vs No of base learner[dsub=800]}
 \end{figure}
 \begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/800/histogramgray.jpg}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/800/confusegray.jpg}
-    \end{subfigure}
-    \caption{Histogram and Confusion Matrix [dsub=800]}
+    \caption{Histogram of votes [800]}
+\begin{table}[H]
+    \centering
+    %\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+            \includegraphics[width=\textwidth]{img/800/confusegray.jpg}
+        \end{subfigure}
+    %\end{figure}
+    \caption{Confusion Matrix [800]}
+\end{table}
 \end{figure}
+
 \begin{flushleft}
 Using 800 sub space dimensionality with CC-C300 feature vector we got Area Under the Curve (AUC) of 0.69. The ROC curve, OOB error vs number of base learner, confusion matrix and histogram of votes are shown in the above graphs. The OOB error was minimum when number of base learner was 120. In this process we made sub space dimensionality constant of 800 while number of base learner to automatically get selected when OOB error was minimum. 
 \end{flushleft}
@@ -141,14 +170,20 @@ Using 800 sub space dimensionality with CC-C300 feature vector we got Area Under
     \caption{ROC curve and OOB vs No of base learner [dsub=1400]}
 \end{figure}
 \begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/1400/gray1400histo.jpg}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/1400/gray1400confuse.jpg}
-    \end{subfigure}
-    \caption{Histogram and Confusion Matrix [dsub=1400]}
+    \caption{Histogram of votes [1400]}
+\begin{table}[H]
+    \centering
+    %\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+            \includegraphics[width=\textwidth]{img/1400/gray1400confuse.jpg}
+        \end{subfigure}
+    %\end{figure}
+    \caption{Confusion Matrix [1400]}
+\end{table}
 \end{figure}
 \begin{flushleft}
 After that we changed sub space dimensionality to 1400, we examined a model's performance and got an Area Under the Curve (AUC) of 0.70. ROC curves, OOB error versus the number of base learners, a confusion matrix, and a vote histogram are shown above. The least amount of out-of-bag error (OOB) was obtained when 100 base learners were used.
@@ -164,14 +199,20 @@ After that we changed sub space dimensionality to 1400, we examined a model's pe
     \caption{ROC curve and OOB vs No of base learner[dsub=2600]}
 \end{figure}
 \begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{img/2600/histo2600.jpg}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-        \includegraphics[width=\textwidth]{img/2600/consuse2600.jpg}
-    \end{subfigure}
-    \caption{Histogram and Confusion Matrix [dsub=2600]}
+    \caption{Histogram of votes [2600]}
+\begin{table}[H]
+    \centering
+    %\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+            \includegraphics[width=\textwidth]{img/2600/consuse2600.jpg}
+        \end{subfigure}
+    %\end{figure}
+    \caption{Confusion Matrix [2600]}
+\end{table}
 \end{figure}
 Then we check for 2600 subspaces, we examined a model's performance and got an Area Under the Curve (AUC) of 0.7116. This was better then all above results. . The OOB error was minimum when the number of base learners was 160.  ROC curve, OOB error versus the number of base learners, a confusion matrix, and a vote histogram are shown above.
 \clearpage
@@ -196,6 +237,7 @@ The following are the findings or results obtained from the selected model:
 \subsection{Time requirements}
 Table below shows the different time requirements for our project:
 \begin{table}[H]
+    \centering
     \begin{tabular}{|l|l|}
     \hline
     S.N                & Average Time Required \\ \hline
@@ -236,21 +278,19 @@ The model's classification performance is summarized through a confusion matrix,
     \caption{Histogram of votes}
 \end{figure}
 The histogram of votes is a graphical representation of the number of votes for each class. The histogram provides a visual representation of the model's classification performance, offering insights into the distribution of votes across the different classes. The histogram is a valuable tool for evaluating the model's classification performance, providing a comprehensive overview of the distribution of votes and the model's ability to distinguish between positive and negative cases.
-
+\clearpage
 \section{Model Evaluation}
 \subsection{Performance Metrices}
-\subsection*{Precision}
-Precision which is also called positive predictive value is the fraction of retrieved instances that are relevant. It is the ratio of true positive to the sum of true positive and false positive. It is given by the formula:
+\subsubsection{Precision}
+\normalsize{
 $$Precision = \frac{TP}{TP+FP} = \frac{3627}{3627+1373} = 0.73 $$
-\subsection*{Accuracy}
-Accuracy is the ratio of correctly predicted observation to the total observations. It is given by the formula:
+\subsubsection{Accuracy}
 $$Accuracy = \frac{TP+TN}{TP+TN+FP+FN}= \frac{3627+1373}{3627+1373+2077+2923}=0.66$$
-\subsection{Recall}
-Recall which is also called sensitivity is the fraction of relevant instances that have been retrieved over the total amount of relevant instances. It is the ratio of true positive to the sum of true positive and false negative. It is given by the formula:
+\subsubsection{Recall}
 $$Recall = \frac{TP}{TP+FN} = \frac{3627}{3627+2077}= 0.64$$
-\subsection{F1 Score}
-F1 Score is the weighted average of Precision and Recall. It is given by the formula:
+\subsubsection{F1 Score}
 $$F1\ Score = 2*\frac{Precision*Recall}{Precision+Recall} = 2*\frac{0.73*0.64}{0.73+0.64} = 0.68$$
+}
 
 
 

@@ -68,6 +68,12 @@ Miko{\l}aj P{\l}achta, Marek Krzemie{\'n}, Krzysztof Szczypiorski, and Artur
   classifiers.
 \newblock {\em Electronics}, 11(10):1565, 2022.
 
+\bibitem{24}
+Jan Kodovsky, Jessica Fridrich, and Vojtech Holub.
+\newblock Ensemble classifiers for steganalysis of digital media.
+\newblock {\em IEEE Transactions on Information Forensics and Security}, 7, 04
+  2012.
+
 \bibitem{2}
 George Berg, Ian Davidson, Ming{-}Yuan Duan, and Goutam Paul.
 \newblock Searching for hidden messages: Automatic detection of steganography.

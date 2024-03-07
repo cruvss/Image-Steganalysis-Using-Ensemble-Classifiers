@@ -7,10 +7,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Performance of the model with different features}}{33}{table.caption.30}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Performance of the model with different parameters}}{34}{table.caption.31}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Time Requirements}}{37}{table.caption.38}%
-\contentsline {table}{\numberline {7.4}{\ignorespaces Confusion Matrix}}{40}{table.caption.41}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Confusion Matrix [DCTR]}}{32}{table.caption.28}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Confusion Matrix [CC-C300]}}{34}{table.caption.31}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Confusion Matirx [CC-CHEN]}}{35}{table.caption.34}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Performance of the model with different features}}{36}{table.caption.35}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces Performance of the model with different parameters}}{36}{table.caption.36}%
+\contentsline {table}{\numberline {7.6}{\ignorespaces Confusion Matrix [800]}}{37}{table.caption.39}%
+\contentsline {table}{\numberline {7.7}{\ignorespaces Confusion Matrix [1400]}}{38}{table.caption.42}%
+\contentsline {table}{\numberline {7.8}{\ignorespaces Confusion Matrix [2600]}}{39}{table.caption.45}%
+\contentsline {table}{\numberline {7.9}{\ignorespaces Time Requirements}}{40}{table.caption.46}%
+\contentsline {table}{\numberline {7.10}{\ignorespaces Confusion Matrix}}{43}{table.caption.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

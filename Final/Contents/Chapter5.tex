@@ -21,7 +21,7 @@ The images in the dataset are standardized to 1024x1024 pixels in RGB format, wi
 There are alternative datasets for steganalysis, such as BOSSbase 1.01 and BURSTbase. However, these datasets utilize images in .pgm format and we felt difficult to work with images in .pgm formatt. We preferred for the IStego100K dataset due to its utilization of .jpg format. Additionally, while the former datasets employ a single steganographic algorithm for embedding information, IStego100K employs three different algorithms, enhancing its diversity and utility for research purposes. Downloading the IStego100K dataset was much easier because it was available on Google Drive, whereas the other datasets were harder to find and access. Additionally, the information provided about the IStego100K dataset was clearer compared to the limited details available for the other datasets. Another advantage of IStego100K is that it's newer, which suggests it might be more up-to-date and relevant for current research compared to the older datasets. 
 
 \clearpage
-\section{Pre-feature Space}
+\section{Dataset Pre-processing}
 The pre feature space is the space before the feature extraction process which involves various processes such as normalization, noise reduction or other process to enhance the quality of the data before feature extraction.
 The images were changed or modified as the need arose ,in order to prepare it for feature extraction process. The feature extraction process we were to perform was CC-C300 which took features from only one channel from the RGB thus, to ensure that all the information from image is considered on a single channel we turned the colored image into gray scaled image which 
 eliminates color information, retains only the luminance (brightness) channel while still maintaining the important structural details and intensity variations from the original colored image. When conversion of colored image to grayscale is done, the colors are lost, but the grayscale version still keeps important stuff like the differences in brightness, edges, and the overall structure of the image.
@@ -188,7 +188,7 @@ Modern steganographic methods typically require a high dimensional feature repre
     \item \textbf{Output:} The final classification decision for the test feature vector.
 \end{enumerate}
 
-\subsection{Mathematics}
+\subsection{Fundamentals of Linear Discriminant Analysis}
 
 \begin{itemize}[leftmargin=*]
     \item \textbf{Class Mean:}
@@ -229,6 +229,51 @@ Modern steganographic methods typically require a high dimensional feature repre
         \end{align*}
     \end{itemize}
 \end{itemize}
+\clearpage
+\section{Model Evaluation}
+\subsection{Performance Metrics}
+
+\subsection*{Precision}
+Precision, also known as positive predictive value, is the fraction of retrieved instances that are relevant. It is calculated using the formula:
+\[ Precision = \frac{TP}{TP + FP} \]
+
+\subsection*{Accuracy}
+Accuracy is the ratio of correctly predicted observations to the total observations. The formula for accuracy is:
+\[ Accuracy = \frac{TP + TN}{TP + TN + FP + FN} \]
+
+\subsection{Recall}
+Recall, also called sensitivity, is the fraction of relevant instances that have been retrieved over the total amount of relevant instances. It is calculated using the formula:
+\[ Recall = \frac{TP}{TP + FN} \]
+
+\subsection{F1 Score}
+F1 Score is the weighted average of Precision and Recall. The formula for F1 Score is:
+\[ F1\ Score = 2 \times \frac{Precision \times Recall}{Precision + Recall} \]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \clearpage 
 
