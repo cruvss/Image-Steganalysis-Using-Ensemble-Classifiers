@@ -27,11 +27,11 @@
 \contentsline {section}{\numberline {4.5}Gantt Chart}{14}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Methodology}{15}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Data Collection}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Pre-feature Space}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Feature extraction}{17}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}JPEG Coefficient Analysis}{17}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Truncation}{17}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Feature Set Creation}{18}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.2}Pre-feature Space}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Feature extraction}{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}JPEG Coefficient Analysis}{16}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Truncation}{16}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Feature Set Creation}{17}{subsection.5.3.3}%
 \contentsline {section}{\numberline {5.4}Ensemble Classifiers}{18}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Algorithm}{21}{subsection.5.4.1}%
 \contentsline {section}{\numberline {5.5}Model Training Approach}{22}{section.5.5}%

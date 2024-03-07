@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  7 MAR 2024 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.1)  7 MAR 2024 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1136,31 +1136,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-] [16] [17
+] [16
 
-]
+] [17]
 <./img/bagging.jpg, id=649, 657.05475pt x 331.83975pt>
 File: ./img/bagging.jpg Graphic file (type jpg)
 <use ./img/bagging.jpg>
-Package pdftex.def Info: ./img/bagging.jpg  used on input line 93.
+Package pdftex.def Info: ./img/bagging.jpg  used on input line 78.
 (pdftex.def)             Requested size: 341.43306pt x 172.44121pt.
- [18]
+ [18
+
+ <./img/bagging.jpg>]
 <./img/boosting.png, id=654, 603.4545pt x 354.123pt>
 File: ./img/boosting.png Graphic file (type png)
 <use ./img/boosting.png>
-Package pdftex.def Info: ./img/boosting.png  used on input line 100.
+Package pdftex.def Info: ./img/boosting.png  used on input line 86.
 (pdftex.def)             Requested size: 341.43306pt x 200.36624pt.
- [19 <./img/bagging.jpg> <./img/boosting.png>]
-<./img/Stacking.png, id=660, 627.5445pt x 286.671pt>
+<./img/Stacking.png, id=655, 627.5445pt x 286.671pt>
 File: ./img/Stacking.png Graphic file (type png)
 <use ./img/Stacking.png>
-Package pdftex.def Info: ./img/Stacking.png  used on input line 108.
+Package pdftex.def Info: ./img/Stacking.png  used on input line 93.
 (pdftex.def)             Requested size: 341.43306pt x 155.97232pt.
+ [19
+
+ <./img/boosting.png> <./img/Stacking.png>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 109.
  [20
 
- <./img/Stacking.png>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 123.
- [21] [22
+] [21] [22
 
 ] [23
 
