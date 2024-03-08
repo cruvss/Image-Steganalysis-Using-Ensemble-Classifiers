@@ -70,6 +70,10 @@
     \includegraphics[width=160mm]{./img/blockDiagram.png}
     \caption{System Block Diagram}
 \end{figure}
+\clearpage
+\begin{flushleft}
+At first, starting with a set of images the procedure begins by converting the images to grayscale then extracting CC-C300 features from JPEG image. After that bootstrapping is utilized to create diverse training data by selecting random subsets. Now those bootstrapped feature will do through different Fisher Linear Discriminant base learner. By repeating this process across subsets, ensemble learning is achieved.  Outputs from each base learner are sent for Voting. The final prediction is determined by combining the results using Hard Voting and is labeled as the ``Majority Hard Voting ''. Then we will have our trained model that can generate a final result.
+\end{flushleft}
 \section{System Architecture}
 \begin{figure}[H]
     \includegraphics[width=160mm]{./img/architecture.png}
