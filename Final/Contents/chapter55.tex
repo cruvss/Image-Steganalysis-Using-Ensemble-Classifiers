@@ -8,37 +8,37 @@
 \end{figure}
 \clearpage
 \begin{flushleft}
-\large{\textbf{Primary actor:}}  
+    \large{\textbf{Primary actor:}}
 \end{flushleft}
 
 \begin{itemize}[noitemsep]
     \item User: Provides susceptible images to the system for analysis.
 \end{itemize}
 \begin{flushleft}
-\large{\textbf{Use-Cases:}}
+    \large{\textbf{Use-Cases:}}
 \end{flushleft}
 \begin{enumerate}[noitemsep]
     \item Provide Image file with Invalid Format (Extend):
-    \begin{itemize}
-        \item This use case allows the user to provide an image file with JPEG extension to the system for analysis.
-        \item If the image file is invalid, the system will handle this error by notifying the user and prompting them to provide a valid image.
-    \end{itemize}
+          \begin{itemize}
+              \item This use case allows the user to provide an image file with JPEG extension to the system for analysis.
+              \item If the image file is invalid, the system will handle this error by notifying the user and prompting them to provide a valid image.
+          \end{itemize}
     \item Display Image (Include):
-    \begin{itemize}
-        \item This use case includes the functionality of displaying the image to the user.
-        \item After the user provides a valid image file, the system will display the image on the interface.
-    \end{itemize}
-    
+          \begin{itemize}
+              \item This use case includes the functionality of displaying the image to the user.
+              \item After the user provides a valid image file, the system will display the image on the interface.
+          \end{itemize}
+
     \item Steganalysis Classifier (Include):
-    \begin{itemize}
-        \item This use case includes the functionality of performing steganalysis on the provided image.
-        \item After displaying the image, the system will apply the steganalysis classifier to analyze the image for hidden data.
-    \end{itemize}
-    
+          \begin{itemize}
+              \item This use case includes the functionality of performing steganalysis on the provided image.
+              \item After displaying the image, the system will apply the steganalysis classifier to analyze the image for hidden data.
+          \end{itemize}
+
     \item Display Classifier Output:
-    \begin{itemize}
-        \item The output of the steganalysis classifier is displayed to the user.
-    \end{itemize}
+          \begin{itemize}
+              \item The output of the steganalysis classifier is displayed to the user.
+          \end{itemize}
 \end{enumerate}
 \clearpage
 \section{Sequence Diagram}
@@ -49,19 +49,19 @@
 \end{figure}
 \large{\textbf{Objects}}
 \normalsize{
-\begin{enumerate}[noitemsep]
-    \item User
-    \item CC-C300
-    \item Predictor
-\end{enumerate}
+    \begin{enumerate}[noitemsep]
+        \item User
+        \item CC-C300
+        \item Predictor
+    \end{enumerate}
 }
 \large{\textbf{Steps}}
 \normalsize{
-\begin{enumerate}[noitemsep]
-    \item The User sends a message to the CC-C300 extractor to provide the path to the image.
-    \item The CC-C300 processes the image, extracts the features and sends a message ``ccc300\_features'' to the Predictor to provide the features.
-    \item Finally, the Predictor sends the prediction result back to the User through the message ``return\_prediction()''
-\end{enumerate}
+    \begin{enumerate}[noitemsep]
+        \item The User sends a message to the CC-C300 extractor to provide the path to the image.
+        \item The CC-C300 processes the image, extracts the features and sends a message ``ccc300\_features'' to the Predictor to provide the features.
+        \item Finally, the Predictor sends the prediction result back to the User through the message ``return\_prediction()''
+    \end{enumerate}
 }
 
 \section{System Block Diagram}
@@ -72,7 +72,7 @@
 \end{figure}
 \clearpage
 \begin{flushleft}
-At first, starting with a set of images the procedure begins by converting the images to grayscale then extracting CC-C300 features from JPEG image. After that bootstrapping is utilized to create diverse training data by selecting random subsets. Now those bootstrapped feature will do through different Fisher Linear Discriminant base learner. By repeating this process across subsets, ensemble learning is achieved.  Outputs from each base learner are sent for Voting. The final prediction is determined by combining the results using Hard Voting and is labeled as the ``Majority Hard Voting ''. Then we will have our trained model that can generate a final result.
+    At first, starting with a set of images the procedure begins by converting the images to grayscale then extracting CC-C300 features from JPEG image. After that bootstrapping is utilized to create diverse training data by selecting random subsets. Now those bootstrapped feature will go through different Fisher Linear Discriminant base learner. By repeating this process across subsets, ensemble learning is achieved.  Outputs from each base learner are sent for Voting. The final prediction is determined by combining the results using Hard Voting and is labeled as the ``Majority Hard Voting ''. Then we will have our trained model that can generate a final result.
 \end{flushleft}
 \section{System Architecture}
 \begin{figure}[H]
