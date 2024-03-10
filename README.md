@@ -26,7 +26,7 @@
 </li>
 </ol>
 <h2>Support</h2>
-<p>For any inquiries or support, please contact <em>sachinkoirala2016@gmail.com</em>.</p>
+<p>For any inquiries or support, please contact <br> <em>sachinkoirala2016@gmail.com</em> <br> <em>sajalpoudel40@gmail.com</em>.</p>
 </body>
 </html>
 
