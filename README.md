@@ -15,7 +15,7 @@
 <h2>Project Overview</h2>
 <ol>
     <li>Dataset Used     : IStego100K [1]</li>
-    <li>Features Used    : CC-C300[3] </li>
+    <li>Features Used    : CC-C300 [2] </li>
     <li>Ensemble Method  : Bagging with FLD as the base learner</li>
 </ol>
 
@@ -25,6 +25,8 @@
     <li> Kodovsky and J. Fridrich. "Steganalysis in high dimensions: fusing classifiers built on random subspaces." Proc. SPIE, Electronic Imaging, Media, Watermarking, Security and Forensics XIII, San Francisco, CA, January 23–26, 2011.
 </li>
 </ol>
+<h2>Support</h2>
+<p>For any inquiries or support, please contact <em>sachinkoirala2016@gmail.com</em>.</p>
 </body>
 </html>
 
