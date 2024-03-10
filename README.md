@@ -18,11 +18,13 @@
     <li>Features Used    : CC-C300[3] </li>
     <li>Ensemble Method  : Bagging with FLD as the base learner</li>
 </ol>
-## References
 
-1. Z. Yang, K. Wang, S. Ma, Y. Huang, X. Kang, and X. Zhao. "Istego100k: Large-scale image steganalysis dataset." In Digital Forensics and Watermarking: 18th International Workshop, IWDW 2019, Chengdu, China, November 2–4, 2019, Revised Selected Papers, vol. 18, pp. 352-364. Springer International Publishing, 2020.
-2. Kodovsky and J. Fridrich. "Steganalysis in high dimensions: fusing classifiers built on random subspaces." Proc. SPIE, Electronic Imaging, Media, Watermarking, Security and Forensics XIII, San Francisco, CA, January 23–26, 2011.
-
+<h2>References</h2>
+<ol>
+    <li>Z. Yang, K. Wang, S. Ma, Y. Huang, X. Kang, and X. Zhao. "Istego100k: Large-scale image steganalysis dataset." In Digital Forensics and Watermarking: 18th International Workshop, IWDW 2019, Chengdu, China, November 2–4, 2019, Revised Selected Papers, vol. 18, pp. 352-364. Springer International Publishing, 2020.</li>
+    <li> Kodovsky and J. Fridrich. "Steganalysis in high dimensions: fusing classifiers built on random subspaces." Proc. SPIE, Electronic Imaging, Media, Watermarking, Security and Forensics XIII, San Francisco, CA, January 23–26, 2011.
+</li>
+</ol>
 </body>
 </html>
 
